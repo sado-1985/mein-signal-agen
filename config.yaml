@@ -1,0 +1,17 @@
+project_name: mein-signal-agent
+version: 1.0.0
+
+environment:
+  mode: development
+  use_gpu: false
+  logging: true
+
+paths:
+  input_folder: ./input
+  output_folder: ./output
+  log_file: ./logs/agent.log
+
+agent:
+  name: signal_agent_001
+  language: de
+  memory_enabled: true
