@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "created": "2025-11-14",
+    "description": "MindSignal Scene Index - Central registry for all prompt scenes",
+    "totalScenes": 0,
+    "genres": [
+      "action",
+      "thriller",
+      "scifi",
+      "commercial",
+      "city",
+      "drama",
+      "documentary",
+      "mma_sport",
+      "fantasy",
+      "horror"
+    ]
+  },
+  "scenes": [],
+  "categories": {
+    "action": {
+      "count": 0,
+      "description": "High-energy action sequences, fights, stunts, explosions",
+      "keywords": ["fight", "chase", "explosion", "stunt", "combat"]
+    },
+    "thriller": {
+      "count": 0,
+      "description": "Suspenseful, tense, psychological thriller scenes",
+      "keywords": ["suspense", "tension", "mystery", "paranoia", "danger"]
+    },
+    "scifi": {
+      "count": 0,
+      "description": "Science fiction, futuristic technology, space, cyberpunk",
+      "keywords": ["future", "technology", "space", "cyberpunk", "alien"]
+    },
+    "commercial": {
+      "count": 0,
+      "description": "Product shots, advertising, lifestyle, brand content",
+      "keywords": ["product", "brand", "lifestyle", "advertising", "commercial"]
+    },
+    "city": {
+      "count": 0,
+      "description": "Urban environments, cityscapes, street life, architecture",
+      "keywords": ["urban", "street", "cityscape", "architecture", "metropolitan"]
+    },
+    "drama": {
+      "count": 0,
+      "description": "Emotional, character-driven, intimate dramatic scenes",
+      "keywords": ["emotion", "character", "intimate", "relationship", "conflict"]
+    },
+    "documentary": {
+      "count": 0,
+      "description": "Real-world, observational, interview-style documentary",
+      "keywords": ["real", "documentary", "interview", "observational", "authentic"]
+    },
+    "mma_sport": {
+      "count": 0,
+      "description": "MMA fights, sports action, training, competitive athletics",
+      "keywords": ["fight", "mma", "sport", "training", "competition"]
+    },
+    "fantasy": {
+      "count": 0,
+      "description": "Fantasy worlds, magic, mythical creatures, epic adventures",
+      "keywords": ["magic", "fantasy", "mythical", "epic", "adventure"]
+    },
+    "horror": {
+      "count": 0,
+      "description": "Horror, suspense, supernatural, psychological terror",
+      "keywords": ["horror", "fear", "supernatural", "terror", "dark"]
+    }
+  },
+  "stats": {
+    "lastUpdated": "2025-11-14T00:00:00.000Z",
+    "totalPrompts": 0,
+    "avgPromptsPerGenre": 0,
+    "cameraMovementsUsed": [],
+    "mostUsedGenre": null,
+    "quality": {
+      "validated": 0,
+      "pending": 0,
+      "errors": 0
+    }
+  }
+}
