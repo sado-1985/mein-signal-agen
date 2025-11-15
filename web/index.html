@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindSignal · Prompt Engineering Toolkit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <h1 class="app-title">MindSignal</h1>
+        <p class="app-subtitle">Prompt Engineering Toolkit · Veo 3.1 & LtX Pro</p>
+      </div>
+      <div class="header-stats">
+        <div class="stat">
+          <span class="stat-value" id="total-prompts">100</span>
+          <span class="stat-label">Prompts</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="total-genres">10</span>
+          <span class="stat-label">Genres</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="total-cameras">28</span>
+          <span class="stat-label">Camera Terms</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tab-navigation">
+      <button class="tab-btn active" data-tab="overview">Overview</button>
+      <button class="tab-btn" data-tab="prompts">Prompt Library</button>
+      <button class="tab-btn" data-tab="veo">Veo 3.1</button>
+      <button class="tab-btn" data-tab="ltx">LtX Pro</button>
+      <button class="tab-btn" data-tab="camera">Camera Lexicon</button>
+      <button class="tab-btn" data-tab="tools">Tools</button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+      <!-- Overview Tab -->
+      <section class="tab-content active" id="tab-overview">
+        <div class="welcome-section">
+          <h2>Welcome to MindSignal</h2>
+          <p class="lead">Professional video prompt engineering toolkit for AI video generation</p>
+
+          <div class="feature-grid">
+            <div class="feature-card">
+              <h3>🎬 100+ Professional Prompts</h3>
+              <p>Ready-to-use prompts across 10 genres: action, thriller, sci-fi, commercial, city, drama, documentary, MMA/sport, fantasy, horror</p>
+            </div>
+            <div class="feature-card">
+              <h3>📹 28 Camera Techniques</h3>
+              <p>Comprehensive cinematography lexicon covering movements, framing, lenses, and special techniques</p>
+            </div>
+            <div class="feature-card">
+              <h3>🎯 Dual Format Support</h3>
+              <p>Structured templates for both Veo 3.1 and LtX Pro video generation models</p>
+            </div>
+            <div class="feature-card">
+              <h3>🛠️ Production Tools</h3>
+              <p>Node.js scripts for prompt generation, normalization, shotlist creation, and export</p>
+            </div>
+          </div>
+
+          <div class="quick-start">
+            <h3>Quick Start</h3>
+            <ol>
+              <li>Browse the <strong>Prompt Library</strong> for ready-made prompts</li>
+              <li>Check <strong>Camera Lexicon</strong> for cinematography techniques</li>
+              <li>Use <strong>Veo 3.1</strong> or <strong>LtX Pro</strong> tabs for format-specific prompts</li>
+              <li>Export prompts using the <strong>Tools</strong> section</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- Prompt Library Tab -->
+      <section class="tab-content" id="tab-prompts">
+        <div class="controls-bar">
+          <div class="search-box">
+            <input type="text" id="prompt-search" placeholder="Search prompts...">
+          </div>
+          <div class="filter-controls">
+            <select id="genre-filter">
+              <option value="all">All Genres</option>
+            </select>
+            <select id="format-filter">
+              <option value="all">All Formats</option>
+              <option value="veo31">Veo 3.1</option>
+              <option value="ltx">LtX Pro</option>
+            </select>
+          </div>
+        </div>
+        <div id="prompt-library-container">
+          <!-- Prompts will be loaded here -->
+        </div>
+      </section>
+
+      <!-- Veo 3.1 Tab -->
+      <section class="tab-content" id="tab-veo">
+        <div class="format-info">
+          <h2>Veo 3.1 Prompt Format</h2>
+          <p>Google's Veo 3.1 uses a structured four-section prompt format</p>
+
+          <div class="format-structure">
+            <div class="structure-item">
+              <h4>[Setting]</h4>
+              <p>Describe the environment, location, lighting, and atmosphere</p>
+            </div>
+            <div class="structure-item">
+              <h4>[Action]</h4>
+              <p>Define what happens, movements, events, and dynamics</p>
+            </div>
+            <div class="structure-item">
+              <h4>[Camera & Style]</h4>
+              <p>Specify camera movements, angles, framing, and visual style</p>
+            </div>
+            <div class="structure-item">
+              <h4>[Output]</h4>
+              <p>Technical specifications: resolution, frame rate, color grading</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls-bar">
+          <select id="veo-genre-filter">
+            <option value="all">All Genres</option>
+          </select>
+        </div>
+
+        <div id="veo-prompts-container">
+          <!-- Veo prompts will be loaded here -->
+        </div>
+      </section>
+
+      <!-- LtX Pro Tab -->
+      <section class="tab-content" id="tab-ltx">
+        <div class="format-info">
+          <h2>LtX Pro Prompt Format</h2>
+          <p>Lightricks' LtX Pro uses a motion-focused four-section structure</p>
+
+          <div class="format-structure">
+            <div class="structure-item">
+              <h4>[Description]</h4>
+              <p>Describe the scene, subject, and visual environment</p>
+            </div>
+            <div class="structure-item">
+              <h4>[Motion]</h4>
+              <p>Define movement, dynamics, and action in the scene</p>
+            </div>
+            <div class="structure-item">
+              <h4>[Framing]</h4>
+              <p>Specify shot type, camera angle, and composition</p>
+            </div>
+            <div class="structure-item">
+              <h4>[Cinematic Style]</h4>
+              <p>Visual style, color grading, lighting, and technical specs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls-bar">
+          <select id="ltx-genre-filter">
+            <option value="all">All Genres</option>
+          </select>
+        </div>
+
+        <div id="ltx-prompts-container">
+          <!-- LtX prompts will be loaded here -->
+        </div>
+      </section>
+
+      <!-- Camera Lexicon Tab -->
+      <section class="tab-content" id="tab-camera">
+        <div class="lexicon-intro">
+          <h2>Camera & Cinematography Lexicon</h2>
+          <p>Professional cinematographic techniques and terminology for AI video generation</p>
+        </div>
+
+        <div class="controls-bar">
+          <div class="search-box">
+            <input type="text" id="camera-search" placeholder="Search camera techniques...">
+          </div>
+          <div class="filter-controls">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="movement">Movement</button>
+            <button class="filter-btn" data-category="framing">Framing</button>
+            <button class="filter-btn" data-category="lens">Lens</button>
+            <button class="filter-btn" data-category="special">Special</button>
+          </div>
+        </div>
+
+        <div id="camera-lexicon-container">
+          <!-- Camera terms will be loaded here -->
+        </div>
+      </section>
+
+      <!-- Tools Tab -->
+      <section class="tab-content" id="tab-tools">
+        <div class="tools-section">
+          <h2>Production Tools</h2>
+          <p>Node.js command-line tools for prompt management and production workflows</p>
+
+          <div class="tool-grid">
+            <div class="tool-card">
+              <h3>🔄 Generate Prompts</h3>
+              <code>node tools/generate_prompts.js</code>
+              <p>Generates individual JSON files for Veo 3.1 and LtX Pro from the prompt library</p>
+              <ul>
+                <li>Creates prompts/veo3_1/*.json</li>
+                <li>Creates prompts/ltx/*.json</li>
+                <li>Automatic format conversion</li>
+                <li>Index file generation</li>
+              </ul>
+            </div>
+
+            <div class="tool-card">
+              <h3>📝 Normalize Prompts</h3>
+              <code>node tools/normalize_prompts.js [file.txt]</code>
+              <p>Converts raw text prompts into structured Veo 3.1 format</p>
+              <ul>
+                <li>Interactive CLI mode</li>
+                <li>File batch processing</li>
+                <li>Auto-section detection</li>
+                <li>JSON output</li>
+              </ul>
+            </div>
+
+            <div class="tool-card">
+              <h3>🎬 Scene to Prompt</h3>
+              <code>node tools/scene_to_prompt.js scene.md</code>
+              <p>Converts scene descriptions to Veo 3.1 and LtX prompts</p>
+              <ul>
+                <li>Markdown parser</li>
+                <li>Camera term integration</li>
+                <li>Dual format output</li>
+                <li>Enhanced cinematography</li>
+              </ul>
+            </div>
+
+            <div class="tool-card">
+              <h3>📄 Export Prompt Sheet</h3>
+              <code>node tools/export_prompt_sheet.js</code>
+              <p>Generates HTML and Markdown reference sheets</p>
+              <ul>
+                <li>Professional HTML sheet</li>
+                <li>Copy-to-clipboard buttons</li>
+                <li>Quick reference Markdown</li>
+                <li>Genre organization</li>
+              </ul>
+            </div>
+
+            <div class="tool-card">
+              <h3>📊 Build Shotlist</h3>
+              <code>node tools/build_shotlist.js</code>
+              <p>Creates CSV shotlists for production planning</p>
+              <ul>
+                <li>Main shotlist CSV</li>
+                <li>Detailed shotlist with full prompts</li>
+                <li>Genre-specific shotlists</li>
+                <li>Production-ready format</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="installation-section">
+            <h3>Installation & Usage</h3>
+            <pre><code># Install dependencies (if needed)
+npm install
+
+# Run any tool
+node tools/[tool-name].js
+
+# Example: Generate all prompts
+node tools/generate_prompts.js
+
+# Example: Create shotlists
+node tools/build_shotlist.js</code></pre>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>&copy; 2025 MindSignal · Prompt Engineering Toolkit · Built for Veo 3.1 & LtX Pro</p>
+    </footer>
+
+  </div>
+
+  <!-- Load Scripts -->
+  <script type="module" src="app.js"></script>
+  <script type="module" src="components/prompt_viewer.js"></script>
+  <script type="module" src="components/camera_lexicon.js"></script>
+  <script type="module" src="components/scene_viewer.js"></script>
+</body>
+</html>
