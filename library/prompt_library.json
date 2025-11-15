@@ -398,5 +398,605 @@
     "cameraStyle": "Medium close-up on face, slow push-in as music starts, soft focus on background, emphasis on emotional response",
     "output": "4K, natural color grade, soft window light, shallow depth of field f/1.8, lifestyle commercial aesthetic, 24fps",
     "fullPrompt": "[Setting]\nModern minimalist room, person sitting in chair, large window with city view, contemporary furniture, afternoon light\n\n[Action]\nPerson puts on headphones, eyes close, head nods to rhythm, pure enjoyment expression, immersed in sound experience\n\n[Camera & Style]\nMedium close-up on face, slow push-in as music starts, soft focus on background, emphasis on emotional response\n\n[Output]\n4K, natural color grade, soft window light, shallow depth of field f/1.8, lifestyle commercial aesthetic, 24fps"
+  },
+  {
+    "id": "city_001",
+    "genre": "city",
+    "title": "Times Square Night Rush",
+    "setting": "Times Square New York at night, massive LED billboards, yellow taxis, steam from subway grates, crowds of tourists",
+    "action": "Timelapse of pedestrians flowing through crosswalk, light trails from traffic, digital billboards changing, energy of city",
+    "cameraStyle": "Locked-off wide angle timelapse, high vantage point overlooking square, long exposure for light trails, 2-second intervals",
+    "output": "4K, vibrant color saturation, light bloom on billboards, motion blur on people, urban energy captured, 24fps playback",
+    "fullPrompt": "[Setting]\nTimes Square New York at night, massive LED billboards, yellow taxis, steam from subway grates, crowds of tourists\n\n[Action]\nTimelapse of pedestrians flowing through crosswalk, light trails from traffic, digital billboards changing, energy of city\n\n[Camera & Style]\nLocked-off wide angle timelapse, high vantage point overlooking square, long exposure for light trails, 2-second intervals\n\n[Output]\n4K, vibrant color saturation, light bloom on billboards, motion blur on people, urban energy captured, 24fps playback"
+  },
+  {
+    "id": "city_002",
+    "genre": "city",
+    "title": "Tokyo Shibuya Crossing",
+    "setting": "Shibuya crossing Tokyo, neon signs in Japanese, massive pedestrian scramble, modern architecture, organized chaos",
+    "action": "Aerial view as traffic stops, crowds surge from all directions crossing simultaneously, perfect synchronized urban ballet",
+    "cameraStyle": "Bird's eye view drone shot directly overhead, wide angle captures entire intersection, slow motion 60fps",
+    "output": "4K, neon color palette emphasizing pinks and blues, nighttime urban aesthetic, geometric patterns of movement",
+    "fullPrompt": "[Setting]\nShibuya crossing Tokyo, neon signs in Japanese, massive pedestrian scramble, modern architecture, organized chaos\n\n[Action]\nAerial view as traffic stops, crowds surge from all directions crossing simultaneously, perfect synchronized urban ballet\n\n[Camera & Style]\nBird's eye view drone shot directly overhead, wide angle captures entire intersection, slow motion 60fps\n\n[Output]\n4K, neon color palette emphasizing pinks and blues, nighttime urban aesthetic, geometric patterns of movement"
+  },
+  {
+    "id": "city_003",
+    "genre": "city",
+    "title": "London Double Decker Bus",
+    "setting": "London street during rain, red double-decker bus, Big Ben in background, wet pavement reflections, overcast sky",
+    "action": "Bus passes camera revealing iconic London scene, pedestrians with umbrellas, rain streaks on camera lens, quintessential London",
+    "cameraStyle": "Street-level medium shot, shallow focus on bus, background softly out of focus, natural rainy day lighting",
+    "output": "4K, moody color grade with desaturated tones except red bus, rain effects, cinematic 2.39:1 aspect ratio, 24fps",
+    "fullPrompt": "[Setting]\nLondon street during rain, red double-decker bus, Big Ben in background, wet pavement reflections, overcast sky\n\n[Action]\nBus passes camera revealing iconic London scene, pedestrians with umbrellas, rain streaks on camera lens, quintessential London\n\n[Camera & Style]\nStreet-level medium shot, shallow focus on bus, background softly out of focus, natural rainy day lighting\n\n[Output]\n4K, moody color grade with desaturated tones except red bus, rain effects, cinematic 2.39:1 aspect ratio, 24fps"
+  },
+  {
+    "id": "city_004",
+    "genre": "city",
+    "title": "Paris Cafe Morning",
+    "setting": "Parisian sidewalk cafe at sunrise, Eiffel Tower visible in distance, bistro tables, croissants and coffee, golden morning light",
+    "action": "Waiter arranges outdoor tables, early morning joggers pass, city awakens, intimate neighborhood moment, peaceful atmosphere",
+    "cameraStyle": "Medium wide establishing shot, natural morning light, static camera observes scene, documentary aesthetic",
+    "output": "4K, warm golden hour color grade, soft morning light, shallow depth of field f/2.8, romantic Parisian mood, 24fps",
+    "fullPrompt": "[Setting]\nParisian sidewalk cafe at sunrise, Eiffel Tower visible in distance, bistro tables, croissants and coffee, golden morning light\n\n[Action]\nWaiter arranges outdoor tables, early morning joggers pass, city awakens, intimate neighborhood moment, peaceful atmosphere\n\n[Camera & Style]\nMedium wide establishing shot, natural morning light, static camera observes scene, documentary aesthetic\n\n[Output]\n4K, warm golden hour color grade, soft morning light, shallow depth of field f/2.8, romantic Parisian mood, 24fps"
+  },
+  {
+    "id": "city_005",
+    "genre": "city",
+    "title": "Hong Kong Neon Alley",
+    "setting": "Narrow Hong Kong alley, vertical neon signs in Chinese characters stacked high, wet pavement, food vendors, atmospheric",
+    "action": "Camera tracks down alley past signs, locals eating at small tables, mopeds parked, authentic street life, cultural immersion",
+    "cameraStyle": "Steadicam tracking shot, low angle looking up at signs, neon reflects in puddles, urban exploration feel",
+    "output": "4K, vibrant neon colors saturated, bokeh from signs, cinematic color grading, atmospheric fog, 24fps",
+    "fullPrompt": "[Setting]\nNarrow Hong Kong alley, vertical neon signs in Chinese characters stacked high, wet pavement, food vendors, atmospheric\n\n[Action]\nCamera tracks down alley past signs, locals eating at small tables, mopeds parked, authentic street life, cultural immersion\n\n[Camera & Style]\nSteadicam tracking shot, low angle looking up at signs, neon reflects in puddles, urban exploration feel\n\n[Output]\n4K, vibrant neon colors saturated, bokeh from signs, cinematic color grading, atmospheric fog, 24fps"
+  },
+  {
+    "id": "city_006",
+    "genre": "city",
+    "title": "Dubai Skyline Sunset",
+    "setting": "Dubai Marina at golden hour, Burj Khalifa visible, luxury yachts, modern skyscrapers, opulent waterfront",
+    "action": "Drone ascends from water level revealing skyline, sun sets between buildings, lights begin to illuminate towers",
+    "cameraStyle": "Aerial drone ascending shot, wide angle transitions to telephoto, smooth gimbal movement, epic reveal",
+    "output": "4K, golden hour color palette, HDR for sunset dynamic range, lens flares from sun, luxury aesthetic, 60fps",
+    "fullPrompt": "[Setting]\nDubai Marina at golden hour, Burj Khalifa visible, luxury yachts, modern skyscrapers, opulent waterfront\n\n[Action]\nDrone ascends from water level revealing skyline, sun sets between buildings, lights begin to illuminate towers\n\n[Camera & Style]\nAerial drone ascending shot, wide angle transitions to telephoto, smooth gimbal movement, epic reveal\n\n[Output]\n4K, golden hour color palette, HDR for sunset dynamic range, lens flares from sun, luxury aesthetic, 60fps"
+  },
+  {
+    "id": "city_007",
+    "genre": "city",
+    "title": "New York Subway Platform",
+    "setting": "NYC subway platform, tiled walls, fluorescent lighting, waiting passengers, train approaching in tunnel, urban transit",
+    "action": "Train emerges from tunnel, wind blows papers, passengers board, doors close, train departs, everyday city life",
+    "cameraStyle": "Wide shot down platform length, train enters frame, handheld observational style, gritty urban documentary",
+    "output": "4K, fluorescent green-yellow color cast, grain for texture, natural lighting, authentic New York feel, 24fps",
+    "fullPrompt": "[Setting]\nNYC subway platform, tiled walls, fluorescent lighting, waiting passengers, train approaching in tunnel, urban transit\n\n[Action]\nTrain emerges from tunnel, wind blows papers, passengers board, doors close, train departs, everyday city life\n\n[Camera & Style]\nWide shot down platform length, train enters frame, handheld observational style, gritty urban documentary\n\n[Output]\n4K, fluorescent green-yellow color cast, grain for texture, natural lighting, authentic New York feel, 24fps"
+  },
+  {
+    "id": "city_008",
+    "genre": "city",
+    "title": "Chicago Architecture River",
+    "setting": "Chicago River with architectural boat tour, iconic buildings reflect in water, glass and steel skyscrapers, urban canyon",
+    "action": "Camera on boat looking up at buildings, smooth glide past Willis Tower, reflections shimmer, architectural showcase",
+    "cameraStyle": "Low angle from water level, wide angle captures building height, smooth boat movement, tilting up perspective",
+    "output": "4K, clean architectural color grade, reflections in water, sharp building details, clear blue sky, 24fps",
+    "fullPrompt": "[Setting]\nChicago River with architectural boat tour, iconic buildings reflect in water, glass and steel skyscrapers, urban canyon\n\n[Action]\nCamera on boat looking up at buildings, smooth glide past Willis Tower, reflections shimmer, architectural showcase\n\n[Camera & Style]\nLow angle from water level, wide angle captures building height, smooth boat movement, tilting up perspective\n\n[Output]\n4K, clean architectural color grade, reflections in water, sharp building details, clear blue sky, 24fps"
+  },
+  {
+    "id": "city_009",
+    "genre": "city",
+    "title": "Berlin Street Art",
+    "setting": "Berlin alternative neighborhood, colorful graffiti murals, urban decay mixed with art, industrial aesthetic, creative district",
+    "action": "Camera pans across massive mural wall, street artist spray painting, vibrant colors emerge, urban art culture",
+    "cameraStyle": "Slow horizontal pan across wall art, medium shot of artist working, detail shots of spray technique, documentary style",
+    "output": "4K, vibrant color saturation on art, slightly desaturated background, urban grit aesthetic, 24fps",
+    "fullPrompt": "[Setting]\nBerlin alternative neighborhood, colorful graffiti murals, urban decay mixed with art, industrial aesthetic, creative district\n\n[Action]\nCamera pans across massive mural wall, street artist spray painting, vibrant colors emerge, urban art culture\n\n[Camera & Style]\nSlow horizontal pan across wall art, medium shot of artist working, detail shots of spray technique, documentary style\n\n[Output]\n4K, vibrant color saturation on art, slightly desaturated background, urban grit aesthetic, 24fps"
+  },
+  {
+    "id": "city_010",
+    "genre": "city",
+    "title": "Singapore Marina Bay",
+    "setting": "Marina Bay Singapore at twilight, modern architecture, Supertree Grove illuminated, reflection in water, futuristic cityscape",
+    "action": "Timelapse transition from day to night, lights activate on buildings, LED light show on Supertrees, city transforms",
+    "cameraStyle": "Locked-off timelapse from across bay, wide angle captures full scene, interval shooting through blue hour",
+    "output": "4K, blue hour color palette transitioning to night, light trails, smooth timelapse, futuristic aesthetic, 24fps playback",
+    "fullPrompt": "[Setting]\nMarina Bay Singapore at twilight, modern architecture, Supertree Grove illuminated, reflection in water, futuristic cityscape\n\n[Action]\nTimelapse transition from day to night, lights activate on buildings, LED light show on Supertrees, city transforms\n\n[Camera & Style]\nLocked-off timelapse from across bay, wide angle captures full scene, interval shooting through blue hour\n\n[Output]\n4K, blue hour color palette transitioning to night, light trails, smooth timelapse, futuristic aesthetic, 24fps playback"
+  },
+  {
+    "id": "drama_001",
+    "genre": "drama",
+    "title": "Hospital Goodbye",
+    "setting": "Hospital room at dusk, warm bedside lamp, machines beeping softly, window shows fading daylight, intimate quiet space",
+    "action": "Daughter holds dying father's hand, tears stream silently, father's eyes close peacefully, hand goes limp, profound loss",
+    "cameraStyle": "Close-up on joined hands, slow push-in on daughter's face, shallow depth of field, natural window light fading",
+    "output": "4K, warm color grade, soft natural lighting, intimate framing, emotional performance focus, 24fps",
+    "fullPrompt": "[Setting]\nHospital room at dusk, warm bedside lamp, machines beeping softly, window shows fading daylight, intimate quiet space\n\n[Action]\nDaughter holds dying father's hand, tears stream silently, father's eyes close peacefully, hand goes limp, profound loss\n\n[Camera & Style]\nClose-up on joined hands, slow push-in on daughter's face, shallow depth of field, natural window light fading\n\n[Output]\n4K, warm color grade, soft natural lighting, intimate framing, emotional performance focus, 24fps"
+  },
+  {
+    "id": "drama_002",
+    "genre": "drama",
+    "title": "Breakup Argument",
+    "setting": "Modern apartment living room, rain against windows, couple facing each other, personal items packed in boxes, ending relationship",
+    "action": "Heated argument escalates, gestures become desperate, voice breaks with emotion, turns away unable to face partner, silence falls",
+    "cameraStyle": "Two-shot medium frame, rack focus between actors, handheld adds emotional instability, over-shoulder reverses",
+    "output": "4K, natural color grade, rain adds atmosphere, shallow focus isolates emotions, authentic performance, 24fps",
+    "fullPrompt": "[Setting]\nModern apartment living room, rain against windows, couple facing each other, personal items packed in boxes, ending relationship\n\n[Action]\nHeated argument escalates, gestures become desperate, voice breaks with emotion, turns away unable to face partner, silence falls\n\n[Camera & Style]\nTwo-shot medium frame, rack focus between actors, handheld adds emotional instability, over-shoulder reverses\n\n[Output]\n4K, natural color grade, rain adds atmosphere, shallow focus isolates emotions, authentic performance, 24fps"
+  },
+  {
+    "id": "drama_003",
+    "genre": "drama",
+    "title": "Courtroom Verdict",
+    "setting": "Traditional courtroom, wooden panels, jury box, defendant standing, family in gallery, tense atmosphere, justice system",
+    "action": "Judge reads verdict, defendant's face changes from hope to despair, family member gasps, lawyer's shoulders drop, fate sealed",
+    "cameraStyle": "Close-up on defendant's reaction, cut to family, back to defendant, static camera increases tension, emotional coverage",
+    "output": "4K, neutral color grade, natural courtroom lighting, focus on facial expressions, dramatic moment captured, 24fps",
+    "fullPrompt": "[Setting]\nTraditional courtroom, wooden panels, jury box, defendant standing, family in gallery, tense atmosphere, justice system\n\n[Action]\nJudge reads verdict, defendant's face changes from hope to despair, family member gasps, lawyer's shoulders drop, fate sealed\n\n[Camera & Style]\nClose-up on defendant's reaction, cut to family, back to defendant, static camera increases tension, emotional coverage\n\n[Output]\n4K, neutral color grade, natural courtroom lighting, focus on facial expressions, dramatic moment captured, 24fps"
+  },
+  {
+    "id": "drama_004",
+    "genre": "drama",
+    "title": "Wedding Day Revelation",
+    "setting": "Church dressing room, bride in white dress, mirror with lights, flowers, makeup half done, moments before ceremony",
+    "action": "Bride receives devastating phone call, mascara runs with tears, removes veil slowly, sits in disbelief, wedding uncertain",
+    "cameraStyle": "Medium close-up in mirror reflection, rack focus from reflection to real bride, intimate single take, emotional realism",
+    "output": "4K, soft natural window light, white dress contrast, tears visible, raw emotional moment, shallow depth f/1.4, 24fps",
+    "fullPrompt": "[Setting]\nChurch dressing room, bride in white dress, mirror with lights, flowers, makeup half done, moments before ceremony\n\n[Action]\nBride receives devastating phone call, mascara runs with tears, removes veil slowly, sits in disbelief, wedding uncertain\n\n[Camera & Style]\nMedium close-up in mirror reflection, rack focus from reflection to real bride, intimate single take, emotional realism\n\n[Output]\n4K, soft natural window light, white dress contrast, tears visible, raw emotional moment, shallow depth f/1.4, 24fps"
+  },
+  {
+    "id": "drama_005",
+    "genre": "drama",
+    "title": "Addiction Intervention",
+    "setting": "Living room intervention circle, family members seated, tissues ready, afternoon light through curtains, heavy atmosphere",
+    "action": "Family confronts addicted loved one, reading prepared letters, voices crack with emotion, addict breaks down, moment of truth",
+    "cameraStyle": "Wide shot shows circle of people, close-ups on each speaker, handheld intimacy, documentary-style coverage",
+    "output": "4K, natural color grade, soft window light, grain for realism, emotional authenticity priority, 24fps",
+    "fullPrompt": "[Setting]\nLiving room intervention circle, family members seated, tissues ready, afternoon light through curtains, heavy atmosphere\n\n[Action]\nFamily confronts addicted loved one, reading prepared letters, voices crack with emotion, addict breaks down, moment of truth\n\n[Camera & Style]\nWide shot shows circle of people, close-ups on each speaker, handheld intimacy, documentary-style coverage\n\n[Output]\n4K, natural color grade, soft window light, grain for realism, emotional authenticity priority, 24fps"
+  },
+  {
+    "id": "drama_006",
+    "genre": "drama",
+    "title": "Dementia Recognition Moment",
+    "setting": "Nursing home room, elderly woman in chair, family photos on wall, grandson visits, gentle afternoon light, quiet dignity",
+    "action": "Grandson shows old photo, grandmother's confused face suddenly lights with recognition, brief moment of clarity, joy then confusion returns",
+    "cameraStyle": "Close-up on grandmother's face, slow push-in during recognition, rack focus to photo then back, tender observation",
+    "output": "4K, warm soft lighting, natural skin tones, shallow depth highlights emotion, documentary sensitivity, 24fps",
+    "fullPrompt": "[Setting]\nNursing home room, elderly woman in chair, family photos on wall, grandson visits, gentle afternoon light, quiet dignity\n\n[Action]\nGrandson shows old photo, grandmother's confused face suddenly lights with recognition, brief moment of clarity, joy then confusion returns\n\n[Camera & Style]\nClose-up on grandmother's face, slow push-in during recognition, rack focus to photo then back, tender observation\n\n[Output]\n4K, warm soft lighting, natural skin tones, shallow depth highlights emotion, documentary sensitivity, 24fps"
+  },
+  {
+    "id": "drama_007",
+    "genre": "drama",
+    "title": "Homeless Shelter Night",
+    "setting": "Homeless shelter at night, rows of cots, harsh fluorescent lights, volunteers serving food, dignity in hardship, human struggle",
+    "action": "Man arrives with few possessions, accepts meal gratefully, finds cot, lies down fully clothed, stares at ceiling contemplating life",
+    "cameraStyle": "Wide shot establishes shelter scale, medium on man's journey through space, close-up on face at rest, observational",
+    "output": "4K, harsh fluorescent color cast, documentary realism, grain texture, natural lighting only, authentic portrayal, 24fps",
+    "fullPrompt": "[Setting]\nHomeless shelter at night, rows of cots, harsh fluorescent lights, volunteers serving food, dignity in hardship, human struggle\n\n[Action]\nMan arrives with few possessions, accepts meal gratefully, finds cot, lies down fully clothed, stares at ceiling contemplating life\n\n[Camera & Style]\nWide shot establishes shelter scale, medium on man's journey through space, close-up on face at rest, observational\n\n[Output]\n4K, harsh fluorescent color cast, documentary realism, grain texture, natural lighting only, authentic portrayal, 24fps"
+  },
+  {
+    "id": "drama_008",
+    "genre": "drama",
+    "title": "Pregnancy Test Result",
+    "setting": "Bathroom, woman alone, test on counter, mirror reflects her face, natural daylight, intimate private moment, life-changing",
+    "action": "Woman reads test result, hand covers mouth, eyes well with tears, slides down wall to floor, overwhelmed with emotion, future uncertain",
+    "cameraStyle": "Close-up on test, rack focus to reflection in mirror, slow push-in on face, follows descent to floor, single take intimacy",
+    "output": "4K, natural bathroom lighting, soft color palette, shallow depth f/2.0, emotional authenticity, handheld realism, 24fps",
+    "fullPrompt": "[Setting]\nBathroom, woman alone, test on counter, mirror reflects her face, natural daylight, intimate private moment, life-changing\n\n[Action]\nWoman reads test result, hand covers mouth, eyes well with tears, slides down wall to floor, overwhelmed with emotion, future uncertain\n\n[Camera & Style]\nClose-up on test, rack focus to reflection in mirror, slow push-in on face, follows descent to floor, single take intimacy\n\n[Output]\n4K, natural bathroom lighting, soft color palette, shallow depth f/2.0, emotional authenticity, handheld realism, 24fps"
+  },
+  {
+    "id": "drama_009",
+    "genre": "drama",
+    "title": "Military Homecoming",
+    "setting": "Airport arrivals terminal, soldier in uniform walks through, family waits with welcome sign, emotional reunion pending, patriotic moment",
+    "action": "Soldier spots family, drops bag, runs to embrace children, wife crying, kids jumping, pure joy after long deployment",
+    "cameraStyle": "Wide shot of terminal, telephoto compression on reunion, slow motion on embrace 60fps, emotional close-ups",
+    "output": "4K, warm color grade, natural airport lighting, shallow depth isolates family, tears visible, heartfelt moment, mix 24fps and 60fps",
+    "fullPrompt": "[Setting]\nAirport arrivals terminal, soldier in uniform walks through, family waits with welcome sign, emotional reunion pending, patriotic moment\n\n[Action]\nSoldier spots family, drops bag, runs to embrace children, wife crying, kids jumping, pure joy after long deployment\n\n[Camera & Style]\nWide shot of terminal, telephoto compression on reunion, slow motion on embrace 60fps, emotional close-ups\n\n[Output]\n4K, warm color grade, natural airport lighting, shallow depth isolates family, tears visible, heartfelt moment, mix 24fps and 60fps"
+  },
+  {
+    "id": "drama_010",
+    "genre": "drama",
+    "title": "Apology Reconciliation",
+    "setting": "Park bench at sunset, two estranged friends meet after years, autumn leaves fall, golden hour light, healing conversation",
+    "action": "Difficult apology delivered, initial coldness, words break through walls, forgiveness given, embrace as old friends reunite, closure found",
+    "cameraStyle": "Two-shot from side, rack focus between faces, slow push-in as walls come down, natural sunset backlight",
+    "output": "4K, golden hour color palette, natural light, emotional beats captured, shallow depth f/2.8, authentic performance, 24fps",
+    "fullPrompt": "[Setting]\nPark bench at sunset, two estranged friends meet after years, autumn leaves fall, golden hour light, healing conversation\n\n[Action]\nDifficult apology delivered, initial coldness, words break through walls, forgiveness given, embrace as old friends reunite, closure found\n\n[Camera & Style]\nTwo-shot from side, rack focus between faces, slow push-in as walls come down, natural sunset backlight\n\n[Output]\n4K, golden hour color palette, natural light, emotional beats captured, shallow depth f/2.8, authentic performance, 24fps"
+  },
+  {
+    "id": "documentary_001",
+    "genre": "documentary",
+    "title": "Fisherman Dawn Routine",
+    "setting": "Small fishing village dock at dawn, fishing boat preparation, nets and equipment, misty morning, traditional lifestyle",
+    "action": "Weathered fisherman prepares boat for day, checks nets methodically, routine practiced thousand times, authentic work captured",
+    "cameraStyle": "Observational handheld, medium shots of work, close-ups on weathered hands, natural light only, documentary realism",
+    "output": "4K, natural color grade, morning mist atmosphere, grain for authenticity, no artificial lighting, 24fps",
+    "fullPrompt": "[Setting]\nSmall fishing village dock at dawn, fishing boat preparation, nets and equipment, misty morning, traditional lifestyle\n\n[Action]\nWeathered fisherman prepares boat for day, checks nets methodically, routine practiced thousand times, authentic work captured\n\n[Camera & Style]\nObservational handheld, medium shots of work, close-ups on weathered hands, natural light only, documentary realism\n\n[Output]\n4K, natural color grade, morning mist atmosphere, grain for authenticity, no artificial lighting, 24fps"
+  },
+  {
+    "id": "documentary_002",
+    "genre": "documentary",
+    "title": "Street Food Vendor",
+    "setting": "Busy Bangkok street market, food cart with sizzling wok, steam rising, customers waiting, authentic street food culture",
+    "action": "Chef expertly prepares pad thai, flames leap from wok, quick precise movements, serves customer, satisfied smile, cultural tradition",
+    "cameraStyle": "Close-up on cooking action, wide establishes market context, handheld follows vendor's movements, natural available light",
+    "output": "4K, vibrant food colors, natural market lighting, steam and heat visible, cultural authenticity, 24fps",
+    "fullPrompt": "[Setting]\nBusy Bangkok street market, food cart with sizzling wok, steam rising, customers waiting, authentic street food culture\n\n[Action]\nChef expertly prepares pad thai, flames leap from wok, quick precise movements, serves customer, satisfied smile, cultural tradition\n\n[Camera & Style]\nClose-up on cooking action, wide establishes market context, handheld follows vendor's movements, natural available light\n\n[Output]\n4K, vibrant food colors, natural market lighting, steam and heat visible, cultural authenticity, 24fps"
+  },
+  {
+    "id": "documentary_003",
+    "genre": "documentary",
+    "title": "Artisan Woodworker",
+    "setting": "Traditional woodworking shop, tools on walls, sawdust in sunbeams, craftsman at workbench, smell of fresh wood, timeless craft",
+    "action": "Master carver shapes wood with hand tools, precise careful movements, years of skill evident, creation emerges from wood",
+    "cameraStyle": "Close-up on hands and tools, macro on wood grain, natural workshop light through windows, static observation",
+    "output": "4K, warm wood tones, natural lighting, shallow depth on hands, dust particles in light, meditative pacing, 24fps",
+    "fullPrompt": "[Setting]\nTraditional woodworking shop, tools on walls, sawdust in sunbeams, craftsman at workbench, smell of fresh wood, timeless craft\n\n[Action]\nMaster carver shapes wood with hand tools, precise careful movements, years of skill evident, creation emerges from wood\n\n[Camera & Style]\nClose-up on hands and tools, macro on wood grain, natural workshop light through windows, static observation\n\n[Output]\n4K, warm wood tones, natural lighting, shallow depth on hands, dust particles in light, meditative pacing, 24fps"
+  },
+  {
+    "id": "documentary_004",
+    "genre": "documentary",
+    "title": "Urban Homeless Interview",
+    "setting": "Under highway overpass, makeshift shelter, city noise background, subject in their environment, honest documentation",
+    "action": "Homeless person speaks directly to camera, tells story authentically, moments of vulnerability, humanity in hardship, truth telling",
+    "cameraStyle": "Medium close-up interview framing, subject slightly off-center, natural light, locked-off tripod, respectful distance",
+    "output": "4K, natural color grade, available light only, shallow depth isolates subject, documentary ethics, 24fps",
+    "fullPrompt": "[Setting]\nUnder highway overpass, makeshift shelter, city noise background, subject in their environment, honest documentation\n\n[Action]\nHomeless person speaks directly to camera, tells story authentically, moments of vulnerability, humanity in hardship, truth telling\n\n[Camera & Style]\nMedium close-up interview framing, subject slightly off-center, natural light, locked-off tripod, respectful distance\n\n[Output]\n4K, natural color grade, available light only, shallow depth isolates subject, documentary ethics, 24fps"
+  },
+  {
+    "id": "documentary_005",
+    "genre": "documentary",
+    "title": "Wildlife Photographer Wait",
+    "setting": "African savanna at dawn, photographer in hide, camera with massive telephoto, patient waiting, nature documentary behind-scenes",
+    "action": "Photographer waits motionless for hours, lion finally appears, quickly adjusts settings, captures shot, satisfied relief, dedication shown",
+    "cameraStyle": "Wide shot of landscape, medium on photographer, insert of viewfinder, observational style, natural progression",
+    "output": "4K, natural savanna colors, golden hour light, authentic wait documented, patience of craft shown, 24fps",
+    "fullPrompt": "[Setting]\nAfrican savanna at dawn, photographer in hide, camera with massive telephoto, patient waiting, nature documentary behind-scenes\n\n[Action]\nPhotographer waits motionless for hours, lion finally appears, quickly adjusts settings, captures shot, satisfied relief, dedication shown\n\n[Camera & Style]\nWide shot of landscape, medium on photographer, insert of viewfinder, observational style, natural progression\n\n[Output]\n4K, natural savanna colors, golden hour light, authentic wait documented, patience of craft shown, 24fps"
+  },
+  {
+    "id": "documentary_006",
+    "genre": "documentary",
+    "title": "Factory Assembly Line",
+    "setting": "Industrial factory floor, assembly line workers, repetitive precise movements, machinery rhythm, modern labor documentary",
+    "action": "Workers perform synchronized tasks on line, same movements repeated endlessly, camera follows product through assembly, industrial choreography",
+    "cameraStyle": "Wide shows full line, tracking shot follows product, close-ups on hands performing tasks, industrial aesthetic",
+    "output": "4K, industrial color palette, fluorescent lighting, sharp focus on labor, rhythmic editing, observational, 24fps",
+    "fullPrompt": "[Setting]\nIndustrial factory floor, assembly line workers, repetitive precise movements, machinery rhythm, modern labor documentary\n\n[Action]\nWorkers perform synchronized tasks on line, same movements repeated endlessly, camera follows product through assembly, industrial choreography\n\n[Camera & Style]\nWide shows full line, tracking shot follows product, close-ups on hands performing tasks, industrial aesthetic\n\n[Output]\n4K, industrial color palette, fluorescent lighting, sharp focus on labor, rhythmic editing, observational, 24fps"
+  },
+  {
+    "id": "documentary_007",
+    "genre": "documentary",
+    "title": "Climate Protest March",
+    "setting": "City streets filled with protesters, handmade signs, chanting crowds, young activists leading, political engagement",
+    "action": "March proceeds through streets, aerial shows scale, close-ups on passionate faces, interviews with participants, democracy in action",
+    "cameraStyle": "Mix of handheld in crowd, drone overhead, interview close-ups, news documentary style, authentic capture",
+    "output": "4K, natural color emphasizing sign colors, handheld energy, real-world documentation, varied shot types, 24fps",
+    "fullPrompt": "[Setting]\nCity streets filled with protesters, handmade signs, chanting crowds, young activists leading, political engagement\n\n[Action]\nMarch proceeds through streets, aerial shows scale, close-ups on passionate faces, interviews with participants, democracy in action\n\n[Camera & Style]\nMix of handheld in crowd, drone overhead, interview close-ups, news documentary style, authentic capture\n\n[Output]\n4K, natural color emphasizing sign colors, handheld energy, real-world documentation, varied shot types, 24fps"
+  },
+  {
+    "id": "documentary_008",
+    "genre": "documentary",
+    "title": "Rural Doctor House Call",
+    "setting": "Remote countryside, dirt roads, small farmhouse, doctor arrives with medical bag, rural healthcare access",
+    "action": "Country doctor examines elderly patient at home, checks vitals, provides care with limited resources, compassionate medicine",
+    "cameraStyle": "Observational handheld, medium shots of examination, close-up on patient-doctor interaction, natural home lighting",
+    "output": "4K, natural color grade, available light only, intimate documentation, healthcare access story, 24fps",
+    "fullPrompt": "[Setting]\nRemote countryside, dirt roads, small farmhouse, doctor arrives with medical bag, rural healthcare access\n\n[Action]\nCountry doctor examines elderly patient at home, checks vitals, provides care with limited resources, compassionate medicine\n\n[Camera & Style]\nObservational handheld, medium shots of examination, close-up on patient-doctor interaction, natural home lighting\n\n[Output]\n4K, natural color grade, available light only, intimate documentation, healthcare access story, 24fps"
+  },
+  {
+    "id": "documentary_009",
+    "genre": "documentary",
+    "title": "Orchestra Rehearsal",
+    "setting": "Symphony hall during rehearsal, conductor on podium, musicians with instruments, acoustic perfection sought, artistic process",
+    "action": "Conductor stops orchestra, gives notes, section repeats passage, gradual improvement, collaboration toward perfection, art in progress",
+    "cameraStyle": "Wide shows full orchestra, medium on conductor, close-ups on instrument sections, multi-camera coverage",
+    "output": "4K, natural concert hall lighting, warm wood tones, clear audio priority, observational of artistic process, 24fps",
+    "fullPrompt": "[Setting]\nSymphony hall during rehearsal, conductor on podium, musicians with instruments, acoustic perfection sought, artistic process\n\n[Action]\nConductor stops orchestra, gives notes, section repeats passage, gradual improvement, collaboration toward perfection, art in progress\n\n[Camera & Style]\nWide shows full orchestra, medium on conductor, close-ups on instrument sections, multi-camera coverage\n\n[Output]\n4K, natural concert hall lighting, warm wood tones, clear audio priority, observational of artistic process, 24fps"
+  },
+  {
+    "id": "documentary_010",
+    "genre": "documentary",
+    "title": "Immigrant Family Story",
+    "setting": "Small apartment, family from another country, photos of homeland on walls, living American dream, cultural identity",
+    "action": "Family shares meal together, multiple generations, mixing traditional and American culture, stories told, laughter and tears",
+    "cameraStyle": "Intimate handheld, sit with family at table level, close-ups during emotional moments, natural apartment lighting",
+    "output": "4K, warm natural color, practical lighting only, authentic family interaction, cultural documentation, 24fps",
+    "fullPrompt": "[Setting]\nSmall apartment, family from another country, photos of homeland on walls, living American dream, cultural identity\n\n[Action]\nFamily shares meal together, multiple generations, mixing traditional and American culture, stories told, laughter and tears\n\n[Camera & Style]\nIntimate handheld, sit with family at table level, close-ups during emotional moments, natural apartment lighting\n\n[Output]\n4K, warm natural color, practical lighting only, authentic family interaction, cultural documentation, 24fps"
+  },
+  {
+    "id": "mma_001",
+    "genre": "mma_sport",
+    "title": "Cage Walk Out",
+    "setting": "UFC octagon, massive arena crowd, dramatic lighting, fighter entrance music, tension electric, championship atmosphere",
+    "action": "Fighter walks to cage flanked by coaches, game face on, enters octagon, bounces on toes, stares down opponent, pre-fight intensity",
+    "cameraStyle": "Steadicam follows fighter walk, low angle hero shot, slow motion on entrance 120fps, crowd atmosphere captured",
+    "output": "4K, dramatic sports lighting, high contrast, crowd energy visible, adrenaline captured, mix 24fps and 120fps",
+    "fullPrompt": "[Setting]\nUFC octagon, massive arena crowd, dramatic lighting, fighter entrance music, tension electric, championship atmosphere\n\n[Action]\nFighter walks to cage flanked by coaches, game face on, enters octagon, bounces on toes, stares down opponent, pre-fight intensity\n\n[Camera & Style]\nSteadicam follows fighter walk, low angle hero shot, slow motion on entrance 120fps, crowd atmosphere captured\n\n[Output]\n4K, dramatic sports lighting, high contrast, crowd energy visible, adrenaline captured, mix 24fps and 120fps"
+  },
+  {
+    "id": "mma_002",
+    "genre": "mma_sport",
+    "title": "Knockout Punch Slow Motion",
+    "setting": "Inside octagon during fight, intense exchange, crowd on feet, referee watching closely, decisive moment imminent",
+    "action": "Perfect overhand right connects flush on jaw, sweat and spit spray in air, opponent's eyes roll back, body goes limp, falls to canvas",
+    "cameraStyle": "Ultra slow motion 480fps on impact, multiple angles, close-up on connection point, wide shows full knockdown",
+    "output": "4K high frame rate, every detail visible, sweat particles frozen in air, dramatic sports photography, impactful",
+    "fullPrompt": "[Setting]\nInside octagon during fight, intense exchange, crowd on feet, referee watching closely, decisive moment imminent\n\n[Action]\nPerfect overhand right connects flush on jaw, sweat and spit spray in air, opponent's eyes roll back, body goes limp, falls to canvas\n\n[Camera & Style]\nUltra slow motion 480fps on impact, multiple angles, close-up on connection point, wide shows full knockdown\n\n[Output]\n4K high frame rate, every detail visible, sweat particles frozen in air, dramatic sports photography, impactful"
+  },
+  {
+    "id": "mma_003",
+    "genre": "mma_sport",
+    "title": "Training Camp Montage",
+    "setting": "MMA gym, heavy bags, wrestling mats, weights, fighters training hard, sweat-soaked atmosphere, preparation grind",
+    "action": "Fighter trains intensely, hits pads, rolls with partners, lifts weights, runs stairs, pushes limits, preparing for fight",
+    "cameraStyle": "Dynamic angles, slow motion on powerful strikes, close-ups on determination, montage editing, inspirational",
+    "output": "4K, high contrast lighting, sweat glistening visible, motivational aesthetic, 60fps and 120fps mixed, gritty",
+    "fullPrompt": "[Setting]\nMMA gym, heavy bags, wrestling mats, weights, fighters training hard, sweat-soaked atmosphere, preparation grind\n\n[Action]\nFighter trains intensely, hits pads, rolls with partners, lifts weights, runs stairs, pushes limits, preparing for fight\n\n[Camera & Style]\nDynamic angles, slow motion on powerful strikes, close-ups on determination, montage editing, inspirational\n\n[Output]\n4K, high contrast lighting, sweat glistening visible, motivational aesthetic, 60fps and 120fps mixed, gritty"
+  },
+  {
+    "id": "mma_004",
+    "genre": "mma_sport",
+    "title": "Submission Escape",
+    "setting": "Octagon mat level, ground fight in progress, fighters grappling, crowd roaring, referee monitoring, technical battle",
+    "action": "Fighter trapped in rear-naked choke, struggling for air, opponent squeezing tight, escapes at last second, reversal to top position",
+    "cameraStyle": "Ground-level camera captures struggle, close-up on faces showing effort, slow motion on escape 120fps, intensity",
+    "output": "4K, dramatic octagon lighting, sweat detail visible, technical grappling showcased, high stakes captured, 24fps and 120fps",
+    "fullPrompt": "[Setting]\nOctagon mat level, ground fight in progress, fighters grappling, crowd roaring, referee monitoring, technical battle\n\n[Action]\nFighter trapped in rear-naked choke, struggling for air, opponent squeezing tight, escapes at last second, reversal to top position\n\n[Camera & Style]\nGround-level camera captures struggle, close-up on faces showing effort, slow motion on escape 120fps, intensity\n\n[Output]\n4K, dramatic octagon lighting, sweat detail visible, technical grappling showcased, high stakes captured, 24fps and 120fps"
+  },
+  {
+    "id": "mma_005",
+    "genre": "mma_sport",
+    "title": "Corner Between Rounds",
+    "setting": "Fighter's corner during one-minute break, stool in octagon, cutman working, coach giving instructions, urgency and care",
+    "action": "Cutman applies ice and enswell to swelling, coach gives tactical advice, fighter breathes heavy, nods understanding, prepares for next round",
+    "cameraStyle": "Close-up on medical work, over-shoulder on coach, medium shot captures full corner scene, documentary intimacy",
+    "output": "4K, dramatic octagon lighting, sweat and blood visible, authentic corner work, urgency conveyed, 24fps",
+    "fullPrompt": "[Setting]\nFighter's corner during one-minute break, stool in octagon, cutman working, coach giving instructions, urgency and care\n\n[Action]\nCutman applies ice and enswell to swelling, coach gives tactical advice, fighter breathes heavy, nods understanding, prepares for next round\n\n[Camera & Style]\nClose-up on medical work, over-shoulder on coach, medium shot captures full corner scene, documentary intimacy\n\n[Output]\n4K, dramatic octagon lighting, sweat and blood visible, authentic corner work, urgency conveyed, 24fps"
+  },
+  {
+    "id": "mma_006",
+    "genre": "mma_sport",
+    "title": "Weigh-In Faceoff",
+    "setting": "Weigh-in stage, fighters face-to-face, cameras flashing, crowd cheering, Dana White between them, pre-fight hype",
+    "action": "Fighters stare intensely, refuse to break eye contact, trash talk exchanged, have to be separated, selling the fight",
+    "cameraStyle": "Close-up on intense stare, side angle shows both fighters, slow push-in on faces, dramatic framing",
+    "output": "4K, stage lighting, high contrast, intensity in eyes visible, promotional feel, 24fps",
+    "fullPrompt": "[Setting]\nWeigh-in stage, fighters face-to-face, cameras flashing, crowd cheering, Dana White between them, pre-fight hype\n\n[Action]\nFighters stare intensely, refuse to break eye contact, trash talk exchanged, have to be separated, selling the fight\n\n[Camera & Style]\nClose-up on intense stare, side angle shows both fighters, slow push-in on faces, dramatic framing\n\n[Output]\n4K, stage lighting, high contrast, intensity in eyes visible, promotional feel, 24fps"
+  },
+  {
+    "id": "mma_007",
+    "genre": "mma_sport",
+    "title": "Victory Celebration",
+    "setting": "Octagon after knockout victory, referee waving off fight, winner celebrating, crowd erupting, emotional release",
+    "action": "Fighter runs to cage fence, climbs up celebrating wildly, team rushes in, emotional embrace, years of work paying off",
+    "cameraStyle": "Wide shows full celebration, slow motion 120fps on climb, close-up on emotional face, team celebration captured",
+    "output": "4K, dramatic lighting, emotion visible through sweat and blood, triumphant moment, 24fps and 120fps mixed",
+    "fullPrompt": "[Setting]\nOctagon after knockout victory, referee waving off fight, winner celebrating, crowd erupting, emotional release\n\n[Action]\nFighter runs to cage fence, climbs up celebrating wildly, team rushes in, emotional embrace, years of work paying off\n\n[Camera & Style]\nWide shows full celebration, slow motion 120fps on climb, close-up on emotional face, team celebration captured\n\n[Output]\n4K, dramatic lighting, emotion visible through sweat and blood, triumphant moment, 24fps and 120fps mixed"
+  },
+  {
+    "id": "mma_008",
+    "genre": "mma_sport",
+    "title": "Spinning Back Fist",
+    "setting": "Mid-fight in octagon, fighters circling, crowd anticipating, explosive technique coming, highlight reel moment",
+    "action": "Fighter spins 360 degrees, back fist connects perfectly, opponent drops instantly, spectacular knockout, crowd goes wild",
+    "cameraStyle": "Multiple cameras capture spin from different angles, ultra slow motion 480fps, replay from 3 angles, spectacular",
+    "output": "4K high frame rate, rotation visible in detail, impact moment frozen, crowd reaction, highlight quality, dramatic",
+    "fullPrompt": "[Setting]\nMid-fight in octagon, fighters circling, crowd anticipating, explosive technique coming, highlight reel moment\n\n[Action]\nFighter spins 360 degrees, back fist connects perfectly, opponent drops instantly, spectacular knockout, crowd goes wild\n\n[Camera & Style]\nMultiple cameras capture spin from different angles, ultra slow motion 480fps, replay from 3 angles, spectacular\n\n[Output]\n4K high frame rate, rotation visible in detail, impact moment frozen, crowd reaction, highlight quality, dramatic"
+  },
+  {
+    "id": "mma_009",
+    "genre": "mma_sport",
+    "title": "Championship Belt Presentation",
+    "setting": "Center of octagon post-fight, Dana White holding championship belt, cameras everywhere, career culmination moment",
+    "action": "Belt wrapped around new champion's waist, raises arms in victory, holds belt high, family in crowd crying, dream realized",
+    "cameraStyle": "Wide establishing shot, slow motion on belt raise 120fps, close-up on emotional face, family reaction cut",
+    "output": "4K, dramatic octagon lighting, gold belt prominent, tears and sweat visible, championship moment, 24fps and 120fps",
+    "fullPrompt": "[Setting]\nCenter of octagon post-fight, Dana White holding championship belt, cameras everywhere, career culmination moment\n\n[Action]\nBelt wrapped around new champion's waist, raises arms in victory, holds belt high, family in crowd crying, dream realized\n\n[Camera & Style]\nWide establishing shot, slow motion on belt raise 120fps, close-up on emotional face, family reaction cut\n\n[Output]\n4K, dramatic octagon lighting, gold belt prominent, tears and sweat visible, championship moment, 24fps and 120fps"
+  },
+  {
+    "id": "mma_010",
+    "genre": "mma_sport",
+    "title": "Pre-Fight Locker Room",
+    "setting": "Fighter locker room 30 minutes before walk, hands being wrapped, coach talking strategy, nerves and focus, private preparation",
+    "action": "Fighter shadow boxes, visualizes victory, hands wrapped by cutman, final words from coach, puts on gloves, ready for battle",
+    "cameraStyle": "Observational documentary style, close-up on hand wrapping, medium on shadow boxing, intimate pre-fight access",
+    "output": "4K, natural locker room lighting, authentic preparation documented, nervous energy captured, 24fps",
+    "fullPrompt": "[Setting]\nFighter locker room 30 minutes before walk, hands being wrapped, coach talking strategy, nerves and focus, private preparation\n\n[Action]\nFighter shadow boxes, visualizes victory, hands wrapped by cutman, final words from coach, puts on gloves, ready for battle\n\n[Camera & Style]\nObservational documentary style, close-up on hand wrapping, medium on shadow boxing, intimate pre-fight access\n\n[Output]\n4K, natural locker room lighting, authentic preparation documented, nervous energy captured, 24fps"
+  },
+  {
+    "id": "fantasy_001",
+    "genre": "fantasy",
+    "title": "Dragon Flight Over Mountains",
+    "setting": "Massive mountain range at sunset, snow-capped peaks, clouds below, epic fantasy landscape, ancient dragon soaring",
+    "action": "Majestic dragon glides between peaks, wings span hundreds of feet, breathes fire illuminating clouds, epic aerial ballet",
+    "cameraStyle": "Aerial tracking shot follows dragon flight, wide angle captures scale, slow motion on fire breath 120fps, cinematic",
+    "output": "4K, epic fantasy color grade, golden sunset palette, dragon fire glow, volumetric clouds, anamorphic 2.39:1, VFX-ready",
+    "fullPrompt": "[Setting]\nMassive mountain range at sunset, snow-capped peaks, clouds below, epic fantasy landscape, ancient dragon soaring\n\n[Action]\nMajestic dragon glides between peaks, wings span hundreds of feet, breathes fire illuminating clouds, epic aerial ballet\n\n[Camera & Style]\nAerial tracking shot follows dragon flight, wide angle captures scale, slow motion on fire breath 120fps, cinematic\n\n[Output]\n4K, epic fantasy color grade, golden sunset palette, dragon fire glow, volumetric clouds, anamorphic 2.39:1, VFX-ready"
+  },
+  {
+    "id": "fantasy_002",
+    "genre": "fantasy",
+    "title": "Wizard Spell Casting",
+    "setting": "Ancient stone tower library, magical tomes floating, glowing runes, candlelight, mystical atmosphere, arcane knowledge",
+    "action": "Wizard chants incantation, staff glows with power, magical energy swirls, spell releases in burst of light, books fly open",
+    "cameraStyle": "Wide shot of library, close-up on glowing staff, circular orbit around wizard during cast, magical reveal",
+    "output": "4K, magical lighting from practical and VFX, mystical color palette purples and blues, particle effects, cinematic",
+    "fullPrompt": "[Setting]\nAncient stone tower library, magical tomes floating, glowing runes, candlelight, mystical atmosphere, arcane knowledge\n\n[Action]\nWizard chants incantation, staff glows with power, magical energy swirls, spell releases in burst of light, books fly open\n\n[Camera & Style]\nWide shot of library, close-up on glowing staff, circular orbit around wizard during cast, magical reveal\n\n[Output]\n4K, magical lighting from practical and VFX, mystical color palette purples and blues, particle effects, cinematic"
+  },
+  {
+    "id": "fantasy_003",
+    "genre": "fantasy",
+    "title": "Elven Forest Kingdom",
+    "setting": "Magical forest with giant trees, elven architecture integrated with nature, glowing bioluminescent plants, ethereal beauty",
+    "action": "Camera glides through forest revealing hidden elven city in trees, bridges between trunks, waterfalls, fantasy world building",
+    "cameraStyle": "Sweeping crane shot through forest, reveals cityscape, wide angle captures scale, smooth gimbal movement",
+    "output": "4K, ethereal color grade, magical bioluminescent glow, fantasy production design, volumetric fog, epic scope",
+    "fullPrompt": "[Setting]\nMagical forest with giant trees, elven architecture integrated with nature, glowing bioluminescent plants, ethereal beauty\n\n[Action]\nCamera glides through forest revealing hidden elven city in trees, bridges between trunks, waterfalls, fantasy world building\n\n[Camera & Style]\nSweeping crane shot through forest, reveals cityscape, wide angle captures scale, smooth gimbal movement\n\n[Output]\n4K, ethereal color grade, magical bioluminescent glow, fantasy production design, volumetric fog, epic scope"
+  },
+  {
+    "id": "fantasy_004",
+    "genre": "fantasy",
+    "title": "Sword From Stone",
+    "setting": "Ancient stone courtyard, legendary sword embedded in stone anvil, gathering crowd, prophecy about to be fulfilled",
+    "action": "Young hero grasps sword handle, pulls with effort, sword begins to glow, slides free from stone, crowd gasps in awe",
+    "cameraStyle": "Wide establishes scene, close-up on hands gripping, slow motion on extraction 120fps, low angle hero shot",
+    "output": "4K, dramatic lighting, magical glow on sword, epic moment, slow motion emphasizes importance, cinematic heroic",
+    "fullPrompt": "[Setting]\nAncient stone courtyard, legendary sword embedded in stone anvil, gathering crowd, prophecy about to be fulfilled\n\n[Action]\nYoung hero grasps sword handle, pulls with effort, sword begins to glow, slides free from stone, crowd gasps in awe\n\n[Camera & Style]\nWide establishes scene, close-up on hands gripping, slow motion on extraction 120fps, low angle hero shot\n\n[Output]\n4K, dramatic lighting, magical glow on sword, epic moment, slow motion emphasizes importance, cinematic heroic"
+  },
+  {
+    "id": "fantasy_005",
+    "genre": "fantasy",
+    "title": "Portal To Another Realm",
+    "setting": "Dark cave with ancient runes, portal swirling with energy, gateway between worlds, mysterious destination, adventure beckons",
+    "action": "Portal activates, energy vortex spins faster, hero steps through into unknown, disappears into light, journey begins",
+    "cameraStyle": "Wide on portal activation, tracking shot follows hero approach, POV entering portal, otherworldly transition",
+    "output": "4K, magical energy VFX, portal light illuminates cave, transition effects, fantasy color palette, epic journey start",
+    "fullPrompt": "[Setting]\nDark cave with ancient runes, portal swirling with energy, gateway between worlds, mysterious destination, adventure beckons\n\n[Action]\nPortal activates, energy vortex spins faster, hero steps through into unknown, disappears into light, journey begins\n\n[Camera & Style]\nWide on portal activation, tracking shot follows hero approach, POV entering portal, otherworldly transition\n\n[Output]\n4K, magical energy VFX, portal light illuminates cave, transition effects, fantasy color palette, epic journey start"
+  },
+  {
+    "id": "fantasy_006",
+    "genre": "fantasy",
+    "title": "Unicorn In Enchanted Meadow",
+    "setting": "Magical meadow bathed in golden light, wildflowers glowing softly, mist rolling through, enchanted forest edge, pure beauty",
+    "action": "White unicorn emerges from mist, ethereal and majestic, horn glowing softly, moves gracefully through flowers, mythical creature",
+    "cameraStyle": "Wide establishing beauty, slow tracking alongside unicorn, shallow depth on creature, magical framing",
+    "output": "4K, ethereal fantasy color grade, soft glowing light, magical atmosphere, horn glow effect, dreamlike quality",
+    "fullPrompt": "[Setting]\nMagical meadow bathed in golden light, wildflowers glowing softly, mist rolling through, enchanted forest edge, pure beauty\n\n[Action]\nWhite unicorn emerges from mist, ethereal and majestic, horn glowing softly, moves gracefully through flowers, mythical creature\n\n[Camera & Style]\nWide establishing beauty, slow tracking alongside unicorn, shallow depth on creature, magical framing\n\n[Output]\n4K, ethereal fantasy color grade, soft glowing light, magical atmosphere, horn glow effect, dreamlike quality"
+  },
+  {
+    "id": "fantasy_007",
+    "genre": "fantasy",
+    "title": "Dwarven Mountain Forge",
+    "setting": "Deep mountain forge, lava flowing, massive anvils, dwarven blacksmiths, heat and sparks, legendary weapon crafting",
+    "action": "Master dwarf smith hammers glowing metal, sparks fly with each strike, shapes legendary weapon, ancient craft practiced",
+    "cameraStyle": "Wide shows scale of forge, close-up on hammering action, slow motion on sparks 240fps, dramatic forging",
+    "output": "4K, warm orange forge lighting, sparks and embers visible, heat shimmer, fantasy production design, epic craftsmanship",
+    "fullPrompt": "[Setting]\nDeep mountain forge, lava flowing, massive anvils, dwarven blacksmiths, heat and sparks, legendary weapon crafting\n\n[Action]\nMaster dwarf smith hammers glowing metal, sparks fly with each strike, shapes legendary weapon, ancient craft practiced\n\n[Camera & Style]\nWide shows scale of forge, close-up on hammering action, slow motion on sparks 240fps, dramatic forging\n\n[Output]\n4K, warm orange forge lighting, sparks and embers visible, heat shimmer, fantasy production design, epic craftsmanship"
+  },
+  {
+    "id": "fantasy_008",
+    "genre": "fantasy",
+    "title": "Phoenix Rising From Ashes",
+    "setting": "Burned temple ruins at dawn, ashes covering ground, sacred altar, moment of rebirth, mythological renewal",
+    "action": "Ashes begin to glow, phoenix form emerges in flames, wings spread majestically, takes flight in burst of fire, rebirth complete",
+    "cameraStyle": "Close on ashes, slow reveal of phoenix forming, crane shot rises with flight, slow motion 240fps on wing spread",
+    "output": "4K, fire and particle VFX, magical transformation, epic fantasy moment, golden flames, awe-inspiring, cinematic",
+    "fullPrompt": "[Setting]\nBurned temple ruins at dawn, ashes covering ground, sacred altar, moment of rebirth, mythological renewal\n\n[Action]\nAshes begin to glow, phoenix form emerges in flames, wings spread majestically, takes flight in burst of fire, rebirth complete\n\n[Camera & Style]\nClose on ashes, slow reveal of phoenix forming, crane shot rises with flight, slow motion 240fps on wing spread\n\n[Output]\n4K, fire and particle VFX, magical transformation, epic fantasy moment, golden flames, awe-inspiring, cinematic"
+  },
+  {
+    "id": "fantasy_009",
+    "genre": "fantasy",
+    "title": "Fairy Ring Ritual",
+    "setting": "Moonlit forest clearing, mushroom circle glowing, tiny fairies dancing, magical mist, enchanted midnight gathering",
+    "action": "Fairies perform ancient ritual, flying in patterns, magic sparks from wands, circle glows brighter, spell cast complete",
+    "cameraStyle": "Wide shows full fairy ring, macro close-ups on tiny fairies, slow motion on flight patterns, magical atmosphere",
+    "output": "4K, moonlight color palette blues and silvers, bioluminescent glow, particle effects, whimsical fantasy, ethereal",
+    "fullPrompt": "[Setting]\nMoonlit forest clearing, mushroom circle glowing, tiny fairies dancing, magical mist, enchanted midnight gathering\n\n[Action]\nFairies perform ancient ritual, flying in patterns, magic sparks from wands, circle glows brighter, spell cast complete\n\n[Camera & Style]\nWide shows full fairy ring, macro close-ups on tiny fairies, slow motion on flight patterns, magical atmosphere\n\n[Output]\n4K, moonlight color palette blues and silvers, bioluminescent glow, particle effects, whimsical fantasy, ethereal"
+  },
+  {
+    "id": "fantasy_010",
+    "genre": "fantasy",
+    "title": "Ice Queen Castle",
+    "setting": "Massive ice castle in frozen wasteland, crystalline architecture, aurora borealis overhead, eternal winter, cold beauty",
+    "action": "Ice Queen walks through her throne room, ice crystals form with each step, freezing power radiates, touches wall creating ice patterns",
+    "cameraStyle": "Wide shows castle grandeur, tracking follows queen, close-up on ice formation, crane reveals throne room scale",
+    "output": "4K, cold color palette blues and whites, ice crystalline details, frozen VFX, epic fantasy production design, majestic",
+    "fullPrompt": "[Setting]\nMassive ice castle in frozen wasteland, crystalline architecture, aurora borealis overhead, eternal winter, cold beauty\n\n[Action]\nIce Queen walks through her throne room, ice crystals form with each step, freezing power radiates, touches wall creating ice patterns\n\n[Camera & Style]\nWide shows castle grandeur, tracking follows queen, close-up on ice formation, crane reveals throne room scale\n\n[Output]\n4K, cold color palette blues and whites, ice crystalline details, frozen VFX, epic fantasy production design, majestic"
+  },
+  {
+    "id": "horror_001",
+    "genre": "horror",
+    "title": "Haunted Asylum Corridor",
+    "setting": "Abandoned mental asylum at night, peeling paint, flickering lights, wheelchairs overturned, oppressive atmosphere, decay",
+    "action": "POV walks slowly down corridor, sudden door slam, lights flicker and die, footsteps echo behind, turns to see shadow figure",
+    "cameraStyle": "Handheld POV first-person, shaky with fear, darkness with flashlight beam, quick pan to shadow, found footage feel",
+    "output": "4K, desaturated color, heavy grain, practical lighting only, jump scare timing, atmospheric dread, 24fps",
+    "fullPrompt": "[Setting]\nAbandoned mental asylum at night, peeling paint, flickering lights, wheelchairs overturned, oppressive atmosphere, decay\n\n[Action]\nPOV walks slowly down corridor, sudden door slam, lights flicker and die, footsteps echo behind, turns to see shadow figure\n\n[Camera & Style]\nHandheld POV first-person, shaky with fear, darkness with flashlight beam, quick pan to shadow, found footage feel\n\n[Output]\n4K, desaturated color, heavy grain, practical lighting only, jump scare timing, atmospheric dread, 24fps"
+  },
+  {
+    "id": "horror_002",
+    "genre": "horror",
+    "title": "Mirror Reflection Horror",
+    "setting": "Bathroom at 3AM, single dim light, cracked mirror, dripping faucet, eerie silence, confined space dread",
+    "action": "Person washes face, looks up at mirror, reflection moves independently, twisted smile appears, reflection reaches through glass",
+    "cameraStyle": "Over-shoulder into mirror, static hold builds tension, rack focus between person and reflection, horror reveal",
+    "output": "4K, cold bathroom lighting, practical shadows, reflection VFX, psychological horror, unsettling atmosphere, 24fps",
+    "fullPrompt": "[Setting]\nBathroom at 3AM, single dim light, cracked mirror, dripping faucet, eerie silence, confined space dread\n\n[Action]\nPerson washes face, looks up at mirror, reflection moves independently, twisted smile appears, reflection reaches through glass\n\n[Camera & Style]\nOver-shoulder into mirror, static hold builds tension, rack focus between person and reflection, horror reveal\n\n[Output]\n4K, cold bathroom lighting, practical shadows, reflection VFX, psychological horror, unsettling atmosphere, 24fps"
+  },
+  {
+    "id": "horror_003",
+    "genre": "horror",
+    "title": "Possession Transformation",
+    "setting": "Church during exorcism, candles flickering, possessed victim tied to chair, priest with bible, demonic presence",
+    "action": "Victim's body contorts unnaturally, eyes turn black, speaks in demonic voice, levitates from chair, supernatural horror",
+    "cameraStyle": "Wide establishes scene, close-up on face transformation, low angle on levitation, handheld chaos, multiple angles",
+    "output": "4K, dramatic candlelight, heavy shadows, practical and VFX effects, unsettling movement, horror atmosphere, 24fps",
+    "fullPrompt": "[Setting]\nChurch during exorcism, candles flickering, possessed victim tied to chair, priest with bible, demonic presence\n\n[Action]\nVictim's body contorts unnaturally, eyes turn black, speaks in demonic voice, levitates from chair, supernatural horror\n\n[Camera & Style]\nWide establishes scene, close-up on face transformation, low angle on levitation, handheld chaos, multiple angles\n\n[Output]\n4K, dramatic candlelight, heavy shadows, practical and VFX effects, unsettling movement, horror atmosphere, 24fps"
+  },
+  {
+    "id": "horror_004",
+    "genre": "horror",
+    "title": "Creature In Woods",
+    "setting": "Dense forest at night, fog thick between trees, limited visibility, camping flashlight beam, isolation terror",
+    "action": "Flashlight beam scans trees, catches glimpse of pale humanoid figure, unnaturally tall and thin, disappears when light hits directly",
+    "cameraStyle": "POV flashlight beam, shaky handheld terror, quick glimpse of creature, darkness and light contrast, found footage",
+    "output": "4K, near-darkness with flashlight cone, grain and noise, creature design glimpsed not fully shown, dread building, 24fps",
+    "fullPrompt": "[Setting]\nDense forest at night, fog thick between trees, limited visibility, camping flashlight beam, isolation terror\n\n[Action]\nFlashlight beam scans trees, catches glimpse of pale humanoid figure, unnaturally tall and thin, disappears when light hits directly\n\n[Camera & Style]\nPOV flashlight beam, shaky handheld terror, quick glimpse of creature, darkness and light contrast, found footage\n\n[Output]\n4K, near-darkness with flashlight cone, grain and noise, creature design glimpsed not fully shown, dread building, 24fps"
+  },
+  {
+    "id": "horror_005",
+    "genre": "horror",
+    "title": "Crawl Space Discovery",
+    "setting": "Narrow attic crawl space, cobwebs, insulation exposed, single bare bulb swinging, claustrophobic horror setting",
+    "action": "Person crawls through space, finds old polaroid photos of themselves sleeping, dated for past week, realizes being watched",
+    "cameraStyle": "Extreme close quarters camera, POV crawling, close-up on photos, claustrophobic framing, psychological dread",
+    "output": "4K, dim bulb lighting, heavy shadows, dust in air, found footage aesthetic, disturbing discovery, 24fps",
+    "fullPrompt": "[Setting]\nNarrow attic crawl space, cobwebs, insulation exposed, single bare bulb swinging, claustrophobic horror setting\n\n[Action]\nPerson crawls through space, finds old polaroid photos of themselves sleeping, dated for past week, realizes being watched\n\n[Camera & Style]\nExtreme close quarters camera, POV crawling, close-up on photos, claustrophobic framing, psychological dread\n\n[Output]\n4K, dim bulb lighting, heavy shadows, dust in air, found footage aesthetic, disturbing discovery, 24fps"
+  },
+  {
+    "id": "horror_006",
+    "genre": "horror",
+    "title": "Ouija Board Session",
+    "setting": "Dark basement, candles arranged in circle, Ouija board on floor, group of teenagers, supernatural summoning",
+    "action": "Planchette moves on its own, spells threatening message, candles blow out simultaneously, demonic presence manifests, chaos erupts",
+    "cameraStyle": "Wide shot of circle, close-up on planchette moving, handheld chaos when candles extinguish, darkness and panic",
+    "output": "4K, candlelight only, darkness when blown out, practical effects, jump scares, found footage style, 24fps",
+    "fullPrompt": "[Setting]\nDark basement, candles arranged in circle, Ouija board on floor, group of teenagers, supernatural summoning\n\n[Action]\nPlanchette moves on its own, spells threatening message, candles blow out simultaneously, demonic presence manifests, chaos erupts\n\n[Camera & Style]\nWide shot of circle, close-up on planchette moving, handheld chaos when candles extinguish, darkness and panic\n\n[Output]\n4K, candlelight only, darkness when blown out, practical effects, jump scares, found footage style, 24fps"
+  },
+  {
+    "id": "horror_007",
+    "genre": "horror",
+    "title": "Basement Shadow Figure",
+    "setting": "Unfinished basement, concrete walls, single light bulb, stairs leading up, water dripping, isolation and dread",
+    "action": "Person doing laundry, peripheral vision catches shadow figure in corner, turns to look directly - nothing there, returns to work, shadow moves closer",
+    "cameraStyle": "Static wide shot, figure visible to audience but not character, slow creeping movement, building dread, patient horror",
+    "output": "4K, harsh single bulb lighting creates deep shadows, desaturated color, practical shadow effects, atmospheric terror, 24fps",
+    "fullPrompt": "[Setting]\nUnfinished basement, concrete walls, single light bulb, stairs leading up, water dripping, isolation and dread\n\n[Action]\nPerson doing laundry, peripheral vision catches shadow figure in corner, turns to look directly - nothing there, returns to work, shadow moves closer\n\n[Camera & Style]\nStatic wide shot, figure visible to audience but not character, slow creeping movement, building dread, patient horror\n\n[Output]\n4K, harsh single bulb lighting creates deep shadows, desaturated color, practical shadow effects, atmospheric terror, 24fps"
+  },
+  {
+    "id": "horror_008",
+    "genre": "horror",
+    "title": "Morgue Drawer Opening",
+    "setting": "Hospital morgue late night, fluorescent lights humming, metal drawers lining walls, cold sterile environment, death surrounds",
+    "action": "Morgue attendant alone, drawer slides open by itself, pale hand reaches out, corpse sits up slowly, dead eyes stare",
+    "cameraStyle": "Wide establishes morgue, close on drawer opening, low angle as corpse rises, slow reveal horror, static dread",
+    "output": "4K, fluorescent green-blue color cast, practical corpse effects, cold atmosphere, jump scare timing, 24fps",
+    "fullPrompt": "[Setting]\nHospital morgue late night, fluorescent lights humming, metal drawers lining walls, cold sterile environment, death surrounds\n\n[Action]\nMorgue attendant alone, drawer slides open by itself, pale hand reaches out, corpse sits up slowly, dead eyes stare\n\n[Camera & Style]\nWide establishes morgue, close on drawer opening, low angle as corpse rises, slow reveal horror, static dread\n\n[Output]\n4K, fluorescent green-blue color cast, practical corpse effects, cold atmosphere, jump scare timing, 24fps"
+  },
+  {
+    "id": "horror_009",
+    "genre": "horror",
+    "title": "Child's Imaginary Friend",
+    "setting": "Child's bedroom at night, toys scattered, nightlight casting shadows, parents asleep, innocent setting turned sinister",
+    "action": "Child talks to empty corner, invisible friend, parent watches from doorway, sees dark figure where child points, figure turns toward parent",
+    "cameraStyle": "POV from doorway, rack focus to corner, slow push-in, reveal of figure, parental perspective horror",
+    "output": "4K, nightlight shadows create atmosphere, practical dark figure, psychological horror, protective fear, 24fps",
+    "fullPrompt": "[Setting]\nChild's bedroom at night, toys scattered, nightlight casting shadows, parents asleep, innocent setting turned sinister\n\n[Action]\nChild talks to empty corner, invisible friend, parent watches from doorway, sees dark figure where child points, figure turns toward parent\n\n[Camera & Style]\nPOV from doorway, rack focus to corner, slow push-in, reveal of figure, parental perspective horror\n\n[Output]\n4K, nightlight shadows create atmosphere, practical dark figure, psychological horror, protective fear, 24fps"
+  },
+  {
+    "id": "horror_010",
+    "genre": "horror",
+    "title": "Abandoned Hospital Operation",
+    "setting": "Decayed operating room in abandoned hospital, rusted surgical tools, blood stains, broken lights flicker, medical horror",
+    "action": "Explorer enters room, operating table suddenly occupied by corpse, surgical lights flash on, tools begin moving on their own, supernatural terror",
+    "cameraStyle": "Wide room entry, close-up on appearing corpse, Dutch angle on chaos, handheld panic retreat, found footage escape",
+    "output": "4K, flickering fluorescent lighting, desaturated with red blood, grain and grit, disturbing medical setting, 24fps",
+    "fullPrompt": "[Setting]\nDecayed operating room in abandoned hospital, rusted surgical tools, blood stains, broken lights flicker, medical horror\n\n[Action]\nExplorer enters room, operating table suddenly occupied by corpse, surgical lights flash on, tools begin moving on their own, supernatural terror\n\n[Camera & Style]\nWide room entry, close-up on appearing corpse, Dutch angle on chaos, handheld panic retreat, found footage escape\n\n[Output]\n4K, flickering fluorescent lighting, desaturated with red blood, grain and grit, disturbing medical setting, 24fps"
   }
 ]
