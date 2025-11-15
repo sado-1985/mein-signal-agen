@@ -1,0 +1,402 @@
+[
+  {
+    "id": "action_001",
+    "genre": "action",
+    "title": "Urban Rooftop Chase",
+    "setting": "Neon-lit Tokyo rooftop at night, rain-slicked surfaces reflecting purple and cyan lights, steam rising from air vents",
+    "action": "Parkour athlete sprints across rooftops, jumping between buildings, sliding under obstacles, camera follows in fluid motion",
+    "cameraStyle": "Dynamic tracking shot, low angle follows movement, handheld aesthetic with stabilization, shallow depth of field f/2.8",
+    "output": "Cinematic 4K, high frame rate 60fps for smooth action, color graded with teal and orange palette, volumetric fog",
+    "fullPrompt": "[Setting]\nNeon-lit Tokyo rooftop at night, rain-slicked surfaces reflecting purple and cyan lights, steam rising from air vents\n\n[Action]\nParkour athlete sprints across rooftops, jumping between buildings, sliding under obstacles, camera follows in fluid motion\n\n[Camera & Style]\nDynamic tracking shot, low angle follows movement, handheld aesthetic with stabilization, shallow depth of field f/2.8\n\n[Output]\nCinematic 4K, high frame rate 60fps for smooth action, color graded with teal and orange palette, volumetric fog"
+  },
+  {
+    "id": "action_002",
+    "genre": "action",
+    "title": "Car Chase Downtown",
+    "setting": "Downtown Los Angeles at golden hour, heavy traffic, glass skyscrapers reflecting sunset, police sirens in distance",
+    "action": "Sports car weaves through traffic at high speed, near-misses with vehicles, tires screeching, sparks flying from contact",
+    "cameraStyle": "Hood-mounted camera POV mixed with drone overhead shots, wide angle lens 24mm, motion blur on background",
+    "output": "4K 120fps slow motion capability, anamorphic lens flares, desaturated with orange highlights, high contrast",
+    "fullPrompt": "[Setting]\nDowntown Los Angeles at golden hour, heavy traffic, glass skyscrapers reflecting sunset, police sirens in distance\n\n[Action]\nSports car weaves through traffic at high speed, near-misses with vehicles, tires screeching, sparks flying from contact\n\n[Camera & Style]\nHood-mounted camera POV mixed with drone overhead shots, wide angle lens 24mm, motion blur on background\n\n[Output]\n4K 120fps slow motion capability, anamorphic lens flares, desaturated with orange highlights, high contrast"
+  },
+  {
+    "id": "action_003",
+    "genre": "action",
+    "title": "Warehouse Gun Fight",
+    "setting": "Abandoned industrial warehouse, shafts of light through broken windows, dust particles floating, rusted machinery",
+    "action": "Tactical team breaches through door, muzzle flashes illuminate darkness, shell casings hit concrete floor in slow motion",
+    "cameraStyle": "Steadicam follows team movement, whip pan between shooters, extreme close-ups on faces during gunfire, rack focus",
+    "output": "Cinematic 4K, 120fps for bullet time effects, heavy grain for gritty aesthetic, crushed blacks with preserved highlights",
+    "fullPrompt": "[Setting]\nAbandoned industrial warehouse, shafts of light through broken windows, dust particles floating, rusted machinery\n\n[Action]\nTactical team breaches through door, muzzle flashes illuminate darkness, shell casings hit concrete floor in slow motion\n\n[Camera & Style]\nSteadicam follows team movement, whip pan between shooters, extreme close-ups on faces during gunfire, rack focus\n\n[Output]\nCinematic 4K, 120fps for bullet time effects, heavy grain for gritty aesthetic, crushed blacks with preserved highlights"
+  },
+  {
+    "id": "action_004",
+    "genre": "action",
+    "title": "Helicopter Combat",
+    "setting": "Urban canyon between skyscrapers, blue sky with scattered clouds, glass and steel buildings, altitude 200 meters",
+    "action": "Military helicopter banks hard between buildings, door gunner firing, rocket trails streak past, evasive maneuvers",
+    "cameraStyle": "Aerial gimbal stabilized shot, 360° orbit around helicopter, telephoto compression 200mm, shallow DoF isolates subject",
+    "output": "4K 60fps, color science emphasizing blues and military greens, lens compression effect, realistic motion blur",
+    "fullPrompt": "[Setting]\nUrban canyon between skyscrapers, blue sky with scattered clouds, glass and steel buildings, altitude 200 meters\n\n[Action]\nMilitary helicopter banks hard between buildings, door gunner firing, rocket trails streak past, evasive maneuvers\n\n[Camera & Style]\nAerial gimbal stabilized shot, 360° orbit around helicopter, telephoto compression 200mm, shallow DoF isolates subject\n\n[Output]\n4K 60fps, color science emphasizing blues and military greens, lens compression effect, realistic motion blur"
+  },
+  {
+    "id": "action_005",
+    "genre": "action",
+    "title": "Martial Arts Dojo Battle",
+    "setting": "Traditional Japanese dojo at night, paper lanterns casting warm light, wooden floor polished to mirror finish, weapons on walls",
+    "action": "Two fighters exchange rapid strikes, spinning kicks, acrobatic flips, traditional weapons clash with metallic ring",
+    "cameraStyle": "Low angle wide shot establishing space, then close-up on impacts, slow motion 240fps on crucial hits, circular dolly movement",
+    "output": "Cinematic 4K, mix of 24fps and 240fps, warm color grade with golden hour aesthetic indoors, shallow depth of field f/1.4",
+    "fullPrompt": "[Setting]\nTraditional Japanese dojo at night, paper lanterns casting warm light, wooden floor polished to mirror finish, weapons on walls\n\n[Action]\nTwo fighters exchange rapid strikes, spinning kicks, acrobatic flips, traditional weapons clash with metallic ring\n\n[Camera & Style]\nLow angle wide shot establishing space, then close-up on impacts, slow motion 240fps on crucial hits, circular dolly movement\n\n[Output]\nCinematic 4K, mix of 24fps and 240fps, warm color grade with golden hour aesthetic indoors, shallow depth of field f/1.4"
+  },
+  {
+    "id": "action_006",
+    "genre": "action",
+    "title": "Explosion Escape",
+    "setting": "Military compound at dusk, concrete buildings, armed guards, floodlights creating harsh shadows, desert environment",
+    "action": "Protagonist runs toward camera as massive explosion erupts behind, fireball expanding, debris flying, shockwave ripples",
+    "cameraStyle": "Slow motion 480fps on explosion, low angle hero shot, wide angle lens to emphasize scale, backlit by fire",
+    "output": "4K high frame rate, orange and teal color grade, bloom on fire elements, film grain overlay, high dynamic range",
+    "fullPrompt": "[Setting]\nMilitary compound at dusk, concrete buildings, armed guards, floodlights creating harsh shadows, desert environment\n\n[Action]\nProtagonist runs toward camera as massive explosion erupts behind, fireball expanding, debris flying, shockwave ripples\n\n[Camera & Style]\nSlow motion 480fps on explosion, low angle hero shot, wide angle lens to emphasize scale, backlit by fire\n\n[Output]\n4K high frame rate, orange and teal color grade, bloom on fire elements, film grain overlay, high dynamic range"
+  },
+  {
+    "id": "action_007",
+    "genre": "action",
+    "title": "Motorcycle Highway Pursuit",
+    "setting": "Coastal highway at sunset, ocean on one side, cliffs on other, winding road with hairpin turns, golden hour lighting",
+    "action": "Sport bike leans into curves at extreme angles, pursuing vehicles close behind, near-misses with guardrails",
+    "cameraStyle": "FPV drone follows at bike level, tracking shot maintains constant distance, wide angle captures environment, speed ramping",
+    "output": "4K 120fps, anamorphic aspect ratio 2.39:1, sun flares, warm golden color grade, motion blur on wheels",
+    "fullPrompt": "[Setting]\nCoastal highway at sunset, ocean on one side, cliffs on other, winding road with hairpin turns, golden hour lighting\n\n[Action]\nSport bike leans into curves at extreme angles, pursuing vehicles close behind, near-misses with guardrails\n\n[Camera & Style]\nFPV drone follows at bike level, tracking shot maintains constant distance, wide angle captures environment, speed ramping\n\n[Output]\n4K 120fps, anamorphic aspect ratio 2.39:1, sun flares, warm golden color grade, motion blur on wheels"
+  },
+  {
+    "id": "action_008",
+    "genre": "action",
+    "title": "Subway Train Fight",
+    "setting": "Moving subway car at night, fluorescent lights flickering, graffiti on walls, windows showing tunnel blur, passengers fled",
+    "action": "Hand-to-hand combat in confined space, fighters use poles and seats, train lurches affecting balance, brutal impacts",
+    "cameraStyle": "Handheld camera shakes with train movement, close quarters framing, Dutch angles during impacts, rapid cutting",
+    "output": "4K with natural motion blur, fluorescent color cast with green tint, high ISO grain aesthetic, practical lighting only",
+    "fullPrompt": "[Setting]\nMoving subway car at night, fluorescent lights flickering, graffiti on walls, windows showing tunnel blur, passengers fled\n\n[Action]\nHand-to-hand combat in confined space, fighters use poles and seats, train lurches affecting balance, brutal impacts\n\n[Camera & Style]\nHandheld camera shakes with train movement, close quarters framing, Dutch angles during impacts, rapid cutting\n\n[Output]\n4K with natural motion blur, fluorescent color cast with green tint, high ISO grain aesthetic, practical lighting only"
+  },
+  {
+    "id": "action_009",
+    "genre": "action",
+    "title": "Skyscraper Window Crash",
+    "setting": "Executive office 40 floors up, floor-to-ceiling windows overlooking city at night, modern minimalist interior, glass desk",
+    "action": "Fighter crashes through glass window, falling in slow motion with glass shards, city lights blur past, arms flailing",
+    "cameraStyle": "Inside-out shot through breaking glass, then exterior falling POV, 360° rotation during fall, extreme slow motion",
+    "output": "4K 480fps ultra slow motion, sharp glass reflections, city lights bokeh, cool blue night color grade, crystal clear detail",
+    "fullPrompt": "[Setting]\nExecutive office 40 floors up, floor-to-ceiling windows overlooking city at night, modern minimalist interior, glass desk\n\n[Action]\nFighter crashes through glass window, falling in slow motion with glass shards, city lights blur past, arms flailing\n\n[Camera & Style]\nInside-out shot through breaking glass, then exterior falling POV, 360° rotation during fall, extreme slow motion\n\n[Output]\n4K 480fps ultra slow motion, sharp glass reflections, city lights bokeh, cool blue night color grade, crystal clear detail"
+  },
+  {
+    "id": "action_010",
+    "genre": "action",
+    "title": "Desert Tank Battle",
+    "setting": "Vast desert landscape at noon, sand dunes, heat waves distorting horizon, harsh sunlight, dust clouds rising",
+    "action": "Tank fires main cannon, massive recoil, shell travels across desert, impact explosion sends sand skyward, debris rains down",
+    "cameraStyle": "Wide establishing shot, then tracking projectile in flight, ground-level angle for impact, crane shot rises above explosion",
+    "output": "4K HDR, desaturated colors with sand tones, heat shimmer effect, high shutter speed freezes action, then slow motion on impact",
+    "fullPrompt": "[Setting]\nVast desert landscape at noon, sand dunes, heat waves distorting horizon, harsh sunlight, dust clouds rising\n\n[Action]\nTank fires main cannon, massive recoil, shell travels across desert, impact explosion sends sand skyward, debris rains down\n\n[Camera & Style]\nWide establishing shot, then tracking projectile in flight, ground-level angle for impact, crane shot rises above explosion\n\n[Output]\n4K HDR, desaturated colors with sand tones, heat shimmer effect, high shutter speed freezes action, then slow motion on impact"
+  },
+  {
+    "id": "thriller_001",
+    "genre": "thriller",
+    "title": "Dark Alley Stalking",
+    "setting": "Narrow rain-soaked alley at night, single flickering streetlight, brick walls covered in grime, steam from manhole",
+    "action": "Shadow figure follows woman at distance, footsteps echo, she glances back nervously, quickens pace, he matches speed",
+    "cameraStyle": "Over-shoulder tracking shot of victim, then reverse angle on stalker in shadow, shallow focus, handheld tension",
+    "output": "4K, desaturated with blue-green tint, grain overlay for analog feel, practical lighting creates deep shadows, 24fps",
+    "fullPrompt": "[Setting]\nNarrow rain-soaked alley at night, single flickering streetlight, brick walls covered in grime, steam from manhole\n\n[Action]\nShadow figure follows woman at distance, footsteps echo, she glances back nervously, quickens pace, he matches speed\n\n[Camera & Style]\nOver-shoulder tracking shot of victim, then reverse angle on stalker in shadow, shallow focus, handheld tension\n\n[Output]\n4K, desaturated with blue-green tint, grain overlay for analog feel, practical lighting creates deep shadows, 24fps"
+  },
+  {
+    "id": "thriller_002",
+    "genre": "thriller",
+    "title": "Security Camera POV",
+    "setting": "Empty parking garage at 2AM, concrete pillars casting shadows, fluorescent lights, car alarms in distance",
+    "action": "Security camera footage shows lone car, figure approaches from blind spot, tries door handle, looks around suspiciously",
+    "cameraStyle": "Fixed security camera angle, slightly degraded image quality, timestamp overlay, black and white with green tint",
+    "output": "720p lo-fi aesthetic, compression artifacts, vignette from lens, fish-eye distortion, stuttering frame rate 15fps",
+    "fullPrompt": "[Setting]\nEmpty parking garage at 2AM, concrete pillars casting shadows, fluorescent lights, car alarms in distance\n\n[Action]\nSecurity camera footage shows lone car, figure approaches from blind spot, tries door handle, looks around suspiciously\n\n[Camera & Style]\nFixed security camera angle, slightly degraded image quality, timestamp overlay, black and white with green tint\n\n[Output]\n720p lo-fi aesthetic, compression artifacts, vignette from lens, fish-eye distortion, stuttering frame rate 15fps"
+  },
+  {
+    "id": "thriller_003",
+    "genre": "thriller",
+    "title": "Home Invasion Discovery",
+    "setting": "Suburban home interior at night, darkness except moonlight through windows, furniture silhouettes, complete silence",
+    "action": "Homeowner wakes, senses something wrong, walks through dark house, sees shadow move, freezes in fear, heavy breathing",
+    "cameraStyle": "POV shot from homeowner perspective, shaky handheld, flashlight beam as only light source, rack focus in darkness",
+    "output": "4K low-light, heavy grain, crushed blacks, practical lighting only, ambient sound emphasized, 24fps natural motion",
+    "fullPrompt": "[Setting]\nSuburban home interior at night, darkness except moonlight through windows, furniture silhouettes, complete silence\n\n[Action]\nHomeowner wakes, senses something wrong, walks through dark house, sees shadow move, freezes in fear, heavy breathing\n\n[Camera & Style]\nPOV shot from homeowner perspective, shaky handheld, flashlight beam as only light source, rack focus in darkness\n\n[Output]\n4K low-light, heavy grain, crushed blacks, practical lighting only, ambient sound emphasized, 24fps natural motion"
+  },
+  {
+    "id": "thriller_004",
+    "genre": "thriller",
+    "title": "Interrogation Room Tension",
+    "setting": "Police interrogation room, harsh overhead light, metal table, two-way mirror, institutional green walls, cold atmosphere",
+    "action": "Detective leans forward intensely, suspect sweats under pressure, long uncomfortable silence, suspect's hand trembles reaching for water",
+    "cameraStyle": "Close-up on suspect's nervous face, then extreme close-up on detective's eyes, locked-off camera, no movement, static tension",
+    "output": "4K, harsh overhead lighting creates deep eye shadows, cool color temperature, sharp focus, minimal color grading",
+    "fullPrompt": "[Setting]\nPolice interrogation room, harsh overhead light, metal table, two-way mirror, institutional green walls, cold atmosphere\n\n[Action]\nDetective leans forward intensely, suspect sweats under pressure, long uncomfortable silence, suspect's hand trembles reaching for water\n\n[Camera & Style]\nClose-up on suspect's nervous face, then extreme close-up on detective's eyes, locked-off camera, no movement, static tension\n\n[Output]\n4K, harsh overhead lighting creates deep eye shadows, cool color temperature, sharp focus, minimal color grading"
+  },
+  {
+    "id": "thriller_005",
+    "genre": "thriller",
+    "title": "Phone Call Threat",
+    "setting": "Modern apartment at dusk, large windows showing city, phone rings breaking silence, dramatic backlight from windows",
+    "action": "Woman hesitates, answers phone, face changes from curious to terrified, hand covers mouth, backs against wall, tears form",
+    "cameraStyle": "Slow push-in on face as call progresses, shallow depth of field f/1.4, natural window light, intimate close-up",
+    "output": "4K, naturalistic color grade, practical lighting, subtle camera movement, focus on emotional performance, 24fps",
+    "fullPrompt": "[Setting]\nModern apartment at dusk, large windows showing city, phone rings breaking silence, dramatic backlight from windows\n\n[Action]\nWoman hesitates, answers phone, face changes from curious to terrified, hand covers mouth, backs against wall, tears form\n\n[Camera & Style]\nSlow push-in on face as call progresses, shallow depth of field f/1.4, natural window light, intimate close-up\n\n[Output]\n4K, naturalistic color grade, practical lighting, subtle camera movement, focus on emotional performance, 24fps"
+  },
+  {
+    "id": "thriller_006",
+    "genre": "thriller",
+    "title": "Elevator Malfunction",
+    "setting": "Modern office elevator, fluorescent ceiling panels, mirrored walls, floor indicator display, enclosed space",
+    "action": "Elevator jerks to stop, lights flicker, woman presses emergency button frantically, elevator drops suddenly, screaming",
+    "cameraStyle": "Wide angle captures confined space, Dutch angle during malfunction, handheld shaking, security camera insert shot",
+    "output": "4K, fluorescent color cast, strobing light effect, claustrophobic framing, natural panic movement, 24fps",
+    "fullPrompt": "[Setting]\nModern office elevator, fluorescent ceiling panels, mirrored walls, floor indicator display, enclosed space\n\n[Action]\nElevator jerks to stop, lights flicker, woman presses emergency button frantically, elevator drops suddenly, screaming\n\n[Camera & Style]\nWide angle captures confined space, Dutch angle during malfunction, handheld shaking, security camera insert shot\n\n[Output]\n4K, fluorescent color cast, strobing light effect, claustrophobic framing, natural panic movement, 24fps"
+  },
+  {
+    "id": "thriller_007",
+    "genre": "thriller",
+    "title": "Forest Pursuit",
+    "setting": "Dense forest at twilight, fog rolling through trees, limited visibility, breaking branches echo, fading daylight",
+    "action": "Person runs desperately through woods, pursued by unseen threat, stumbles over roots, breathing heavily, looks back in terror",
+    "cameraStyle": "Handheld chase cam, branches whip across lens, focus pulls between runner and dark forest behind, low angle stumbling",
+    "output": "4K, desaturated color, heavy grain, natural light fading to darkness, motion blur from panic, 24fps",
+    "fullPrompt": "[Setting]\nDense forest at twilight, fog rolling through trees, limited visibility, breaking branches echo, fading daylight\n\n[Action]\nPerson runs desperately through woods, pursued by unseen threat, stumbles over roots, breathing heavily, looks back in terror\n\n[Camera & Style]\nHandheld chase cam, branches whip across lens, focus pulls between runner and dark forest behind, low angle stumbling\n\n[Output]\n4K, desaturated color, heavy grain, natural light fading to darkness, motion blur from panic, 24fps"
+  },
+  {
+    "id": "thriller_008",
+    "genre": "thriller",
+    "title": "Basement Discovery",
+    "setting": "Old house basement, bare bulb swinging, casting moving shadows, cobwebs, water dripping, concrete walls with stains",
+    "action": "Detective descends creaky stairs, flashlight beam reveals disturbing evidence on walls, stops in shock, hand trembles on railing",
+    "cameraStyle": "Over-shoulder descending stairs, POV flashlight beam sweeps room, slow reveal of evidence, rack focus to reaction",
+    "output": "4K low-light, single practical bulb, heavy shadows, cool color temperature, grain for texture, 24fps",
+    "fullPrompt": "[Setting]\nOld house basement, bare bulb swinging, casting moving shadows, cobwebs, water dripping, concrete walls with stains\n\n[Action]\nDetective descends creaky stairs, flashlight beam reveals disturbing evidence on walls, stops in shock, hand trembles on railing\n\n[Camera & Style]\nOver-shoulder descending stairs, POV flashlight beam sweeps room, slow reveal of evidence, rack focus to reaction\n\n[Output]\n4K low-light, single practical bulb, heavy shadows, cool color temperature, grain for texture, 24fps"
+  },
+  {
+    "id": "thriller_009",
+    "genre": "thriller",
+    "title": "Rooftop Confrontation",
+    "setting": "City rooftop at night, neon signs illuminate from below, strong wind, edge of building visible, dangerous height",
+    "action": "Two figures face off near ledge, one backs toward edge, arms raised defensively, wind whips clothing, tense standoff",
+    "cameraStyle": "Wide shot establishes danger of height, then medium two-shot, low angle emphasizes peril, steady camera increases tension",
+    "output": "4K, neon-lit color palette, wind movement in frame, urban night ambience, sharp focus on characters, 24fps",
+    "fullPrompt": "[Setting]\nCity rooftop at night, neon signs illuminate from below, strong wind, edge of building visible, dangerous height\n\n[Action]\nTwo figures face off near ledge, one backs toward edge, arms raised defensively, wind whips clothing, tense standoff\n\n[Camera & Style]\nWide shot establishes danger of height, then medium two-shot, low angle emphasizes peril, steady camera increases tension\n\n[Output]\n4K, neon-lit color palette, wind movement in frame, urban night ambience, sharp focus on characters, 24fps"
+  },
+  {
+    "id": "thriller_010",
+    "genre": "thriller",
+    "title": "Car Trunk Escape",
+    "setting": "Inside car trunk, complete darkness except thin light seams, cramped space, muffled road noise, feeling of movement",
+    "action": "Bound victim struggles against restraints, tries to reach trunk release, panic breathing, car hits bump violently",
+    "cameraStyle": "Interior trunk POV, extreme close-up on face lit by phone screen, handheld matches car movement, claustrophobic framing",
+    "output": "4K, near-total darkness with tiny light source, heavy grain, compression of space, realistic movement, 24fps",
+    "fullPrompt": "[Setting]\nInside car trunk, complete darkness except thin light seams, cramped space, muffled road noise, feeling of movement\n\n[Action]\nBound victim struggles against restraints, tries to reach trunk release, panic breathing, car hits bump violently\n\n[Camera & Style]\nInterior trunk POV, extreme close-up on face lit by phone screen, handheld matches car movement, claustrophobic framing\n\n[Output]\n4K, near-total darkness with tiny light source, heavy grain, compression of space, realistic movement, 24fps"
+  },
+  {
+    "id": "scifi_001",
+    "genre": "scifi",
+    "title": "Cyberpunk Street Market",
+    "setting": "Neo-Tokyo street market 2089, holographic advertisements float overhead, neon kanji signs, rain creates reflections, crowds with cybernetic implants",
+    "action": "Camera glides through bustling market, vendors sell tech implants, android street performers, flying drones deliver packages overhead",
+    "cameraStyle": "Steadicam tracking shot through crowd, wide angle 18mm, depth from foreground to background, neon bokeh in rain",
+    "output": "4K anamorphic, heavy color grading teal and magenta, volumetric fog, lens flares from neon, grain overlay, 24fps",
+    "fullPrompt": "[Setting]\nNeo-Tokyo street market 2089, holographic advertisements float overhead, neon kanji signs, rain creates reflections, crowds with cybernetic implants\n\n[Action]\nCamera glides through bustling market, vendors sell tech implants, android street performers, flying drones deliver packages overhead\n\n[Camera & Style]\nSteadicam tracking shot through crowd, wide angle 18mm, depth from foreground to background, neon bokeh in rain\n\n[Output]\n4K anamorphic, heavy color grading teal and magenta, volumetric fog, lens flares from neon, grain overlay, 24fps"
+  },
+  {
+    "id": "scifi_002",
+    "genre": "scifi",
+    "title": "Space Station Corridor",
+    "setting": "International space station corridor 2156, zero gravity, floating objects, LED strip lighting, windows showing Earth below",
+    "action": "Astronaut floats gracefully through corridor, pushes off walls, tools and tablets drift past, Earth rotates majestically in window",
+    "cameraStyle": "Rotating camera simulates zero-G, wide angle captures confined space, smooth gimbal movement, POV looking down at Earth",
+    "output": "4K, cool sterile color grade, clean sci-fi aesthetic, lens flares from sun, deep blacks of space, 60fps smooth motion",
+    "fullPrompt": "[Setting]\nInternational space station corridor 2156, zero gravity, floating objects, LED strip lighting, windows showing Earth below\n\n[Action]\nAstronaut floats gracefully through corridor, pushes off walls, tools and tablets drift past, Earth rotates majestically in window\n\n[Camera & Style]\nRotating camera simulates zero-G, wide angle captures confined space, smooth gimbal movement, POV looking down at Earth\n\n[Output]\n4K, cool sterile color grade, clean sci-fi aesthetic, lens flares from sun, deep blacks of space, 60fps smooth motion"
+  },
+  {
+    "id": "scifi_003",
+    "genre": "scifi",
+    "title": "Alien Planet Landing",
+    "setting": "Unknown planet surface, purple sky with two moons, crystalline rock formations, bioluminescent plant life, alien atmosphere",
+    "action": "Spacecraft descends through atmosphere, landing thrusters fire, dust cloud erupts, hatch opens revealing alien landscape",
+    "cameraStyle": "Wide establishing shot from ground level, crane shot rises to reveal environment, slow motion on dust cloud, epic scale",
+    "output": "4K, otherworldly color palette purple and orange, atmospheric haze, lens flares from dual suns, cinematic scope 2.39:1",
+    "fullPrompt": "[Setting]\nUnknown planet surface, purple sky with two moons, crystalline rock formations, bioluminescent plant life, alien atmosphere\n\n[Action]\nSpacecraft descends through atmosphere, landing thrusters fire, dust cloud erupts, hatch opens revealing alien landscape\n\n[Camera & Style]\nWide establishing shot from ground level, crane shot rises to reveal environment, slow motion on dust cloud, epic scale\n\n[Output]\n4K, otherworldly color palette purple and orange, atmospheric haze, lens flares from dual suns, cinematic scope 2.39:1"
+  },
+  {
+    "id": "scifi_004",
+    "genre": "scifi",
+    "title": "Holographic Interface",
+    "setting": "Sleek laboratory 2099, floor-to-ceiling windows showing city, minimalist design, holographic displays floating in air",
+    "action": "Scientist manipulates 3D holographic data with hand gestures, rotates molecular structures, swipes through screens, data streams",
+    "cameraStyle": "Medium shot of scientist, rack focus between hands and hologram, slow orbital camera movement, clean composition",
+    "output": "4K, clinical color grade, hologram glow effects, shallow depth of field, sharp focus on gestures, 24fps",
+    "fullPrompt": "[Setting]\nSleek laboratory 2099, floor-to-ceiling windows showing city, minimalist design, holographic displays floating in air\n\n[Action]\nScientist manipulates 3D holographic data with hand gestures, rotates molecular structures, swipes through screens, data streams\n\n[Camera & Style]\nMedium shot of scientist, rack focus between hands and hologram, slow orbital camera movement, clean composition\n\n[Output]\n4K, clinical color grade, hologram glow effects, shallow depth of field, sharp focus on gestures, 24fps"
+  },
+  {
+    "id": "scifi_005",
+    "genre": "scifi",
+    "title": "Android Awakening",
+    "setting": "Tech corporation lab, white sterile environment, android in charging pod, diagnostic screens, robotic assembly arms",
+    "action": "Android's eyes open glowing blue, fingers twitch, sits up slowly, looks at own hands in wonder, consciousness dawning",
+    "cameraStyle": "Close-up on face as eyes activate, slow push-in, macro lens on eye detail, then pull out to reveal full android",
+    "output": "4K, cold blue-white color palette, specular highlights on synthetic skin, lens flares from eye glow, 24fps",
+    "fullPrompt": "[Setting]\nTech corporation lab, white sterile environment, android in charging pod, diagnostic screens, robotic assembly arms\n\n[Action]\nAndroid's eyes open glowing blue, fingers twitch, sits up slowly, looks at own hands in wonder, consciousness dawning\n\n[Camera & Style]\nClose-up on face as eyes activate, slow push-in, macro lens on eye detail, then pull out to reveal full android\n\n[Output]\n4K, cold blue-white color palette, specular highlights on synthetic skin, lens flares from eye glow, 24fps"
+  },
+  {
+    "id": "scifi_006",
+    "genre": "scifi",
+    "title": "Time Portal Activation",
+    "setting": "Underground bunker laboratory, massive circular portal device, electrical cables, warning lights, concrete walls humming with power",
+    "action": "Portal spins faster, energy arcs between rings, vortex forms in center, papers fly from wind force, scientist shielding eyes",
+    "cameraStyle": "Wide shot captures scale, then close-up on spinning portal mechanism, camera shake from power surge, light flares",
+    "output": "4K, electric blue and white energy effects, volumetric light beams, motion blur on rotation, HDR bright highlights, 60fps",
+    "fullPrompt": "[Setting]\nUnderground bunker laboratory, massive circular portal device, electrical cables, warning lights, concrete walls humming with power\n\n[Action]\nPortal spins faster, energy arcs between rings, vortex forms in center, papers fly from wind force, scientist shielding eyes\n\n[Camera & Style]\nWide shot captures scale, then close-up on spinning portal mechanism, camera shake from power surge, light flares\n\n[Output]\n4K, electric blue and white energy effects, volumetric light beams, motion blur on rotation, HDR bright highlights, 60fps"
+  },
+  {
+    "id": "scifi_007",
+    "genre": "scifi",
+    "title": "Underwater Research Base",
+    "setting": "Deep ocean research facility 2105, panoramic windows showing ocean depths, bioluminescent creatures pass by, pressurized corridors",
+    "action": "Researcher walks past window, massive unknown creature swims by slowly, its eye fills entire window, researcher freezes in awe",
+    "cameraStyle": "Tracking shot alongside researcher, rack focus from person to creature outside, slow reveal of scale, static hold on eye",
+    "output": "4K, deep blue underwater color grade, volumetric light rays through water, creature bioluminescence glow, 24fps",
+    "fullPrompt": "[Setting]\nDeep ocean research facility 2105, panoramic windows showing ocean depths, bioluminescent creatures pass by, pressurized corridors\n\n[Action]\nResearcher walks past window, massive unknown creature swims by slowly, its eye fills entire window, researcher freezes in awe\n\n[Camera & Style]\nTracking shot alongside researcher, rack focus from person to creature outside, slow reveal of scale, static hold on eye\n\n[Output]\n4K, deep blue underwater color grade, volumetric light rays through water, creature bioluminescence glow, 24fps"
+  },
+  {
+    "id": "scifi_008",
+    "genre": "scifi",
+    "title": "Neon City Flyover",
+    "setting": "Megacity at night from 500m altitude, endless neon sprawl, flying vehicles, holographic billboards, layer upon layer of structures",
+    "action": "Camera soars between skyscrapers, flying cars zip past, descends through layers of city, rain creates light streaks",
+    "cameraStyle": "Sweeping aerial drone shot, gimbal stabilized, wide angle to telephoto zoom, dynamic movement through vertical space",
+    "output": "4K, vibrant neon color saturation, motion blur on vehicles, rain particle effects, lens flares, anamorphic 2.39:1",
+    "fullPrompt": "[Setting]\nMegacity at night from 500m altitude, endless neon sprawl, flying vehicles, holographic billboards, layer upon layer of structures\n\n[Action]\nCamera soars between skyscrapers, flying cars zip past, descends through layers of city, rain creates light streaks\n\n[Camera & Style]\nSweeping aerial drone shot, gimbal stabilized, wide angle to telephoto zoom, dynamic movement through vertical space\n\n[Output]\n4K, vibrant neon color saturation, motion blur on vehicles, rain particle effects, lens flares, anamorphic 2.39:1"
+  },
+  {
+    "id": "scifi_009",
+    "genre": "scifi",
+    "title": "Cryosleep Wake-Up",
+    "setting": "Spaceship cryopod chamber, frost-covered glass, blue LED indicators, life support monitors, cold sterile metal surfaces",
+    "action": "Frost melts from pod glass, vital signs activate on screen, subject's eyes flutter open, pod hiss releases, glass slides open",
+    "cameraStyle": "Close-up through frosted glass distortion, rack focus as frost clears, slow push-in on awakening face, macro detail",
+    "output": "4K, cold cyan color grade, condensation effects, ice crystal details, backlit subject, shallow depth of field f/2.0, 24fps",
+    "fullPrompt": "[Setting]\nSpaceship cryopod chamber, frost-covered glass, blue LED indicators, life support monitors, cold sterile metal surfaces\n\n[Action]\nFrost melts from pod glass, vital signs activate on screen, subject's eyes flutter open, pod hiss releases, glass slides open\n\n[Camera & Style]\nClose-up through frosted glass distortion, rack focus as frost clears, slow push-in on awakening face, macro detail\n\n[Output]\n4K, cold cyan color grade, condensation effects, ice crystal details, backlit subject, shallow depth of field f/2.0, 24fps"
+  },
+  {
+    "id": "scifi_010",
+    "genre": "scifi",
+    "title": "Robot Factory Assembly",
+    "setting": "Automated factory floor, robotic arms assemble androids, sparks from welding, conveyor belts, industrial precision, minimal human presence",
+    "action": "Camera follows android body through assembly line, components attach, circuits light up, final quality check, eyes activate",
+    "cameraStyle": "Tracking shot follows assembly line, overhead crane shot shows scale, close-up on precision work, timelapse segments",
+    "output": "4K, industrial color palette, spark particle effects, sharp mechanical details, cool blue-white lighting, 24fps and 60fps mix",
+    "fullPrompt": "[Setting]\nAutomated factory floor, robotic arms assemble androids, sparks from welding, conveyor belts, industrial precision, minimal human presence\n\n[Action]\nCamera follows android body through assembly line, components attach, circuits light up, final quality check, eyes activate\n\n[Camera & Style]\nTracking shot follows assembly line, overhead crane shot shows scale, close-up on precision work, timelapse segments\n\n[Output]\n4K, industrial color palette, spark particle effects, sharp mechanical details, cool blue-white lighting, 24fps and 60fps mix"
+  },
+  {
+    "id": "commercial_001",
+    "genre": "commercial",
+    "title": "Luxury Car Reveal",
+    "setting": "Minimalist white studio with dramatic spotlighting, reflective floor creating mirror image, completely clean backdrop",
+    "action": "Camera orbits around luxury vehicle 360 degrees, reveals elegant curves, chrome details catch light, car rotates on turntable",
+    "cameraStyle": "Smooth gimbal 360° orbital shot, telephoto lens compression 85mm, shallow depth keeps background pure white, slow motion",
+    "output": "4K, high key lighting, perfect reflections, chrome specular highlights, clean white balance, 60fps silky smooth",
+    "fullPrompt": "[Setting]\nMinimalist white studio with dramatic spotlighting, reflective floor creating mirror image, completely clean backdrop\n\n[Action]\nCamera orbits around luxury vehicle 360 degrees, reveals elegant curves, chrome details catch light, car rotates on turntable\n\n[Camera & Style]\nSmooth gimbal 360° orbital shot, telephoto lens compression 85mm, shallow depth keeps background pure white, slow motion\n\n[Output]\n4K, high key lighting, perfect reflections, chrome specular highlights, clean white balance, 60fps silky smooth"
+  },
+  {
+    "id": "commercial_002",
+    "genre": "commercial",
+    "title": "Perfume Bottle Hero Shot",
+    "setting": "Black silk fabric backdrop, single dramatic spotlight, perfume bottle on pedestal, expensive minimalist aesthetic",
+    "action": "Slow rotation of perfume bottle, golden liquid visible inside, light catches faceted glass, brand name comes into focus",
+    "cameraStyle": "Macro lens extreme close-up, slow push-in, rotating turntable, rack focus from bottle to logo, crystal clarity",
+    "output": "4K, luxury commercial aesthetic, perfect lighting gradient, specular highlights on glass, rich blacks, shallow DoF f/2.8",
+    "fullPrompt": "[Setting]\nBlack silk fabric backdrop, single dramatic spotlight, perfume bottle on pedestal, expensive minimalist aesthetic\n\n[Action]\nSlow rotation of perfume bottle, golden liquid visible inside, light catches faceted glass, brand name comes into focus\n\n[Camera & Style]\nMacro lens extreme close-up, slow push-in, rotating turntable, rack focus from bottle to logo, crystal clarity\n\n[Output]\n4K, luxury commercial aesthetic, perfect lighting gradient, specular highlights on glass, rich blacks, shallow DoF f/2.8"
+  },
+  {
+    "id": "commercial_003",
+    "genre": "commercial",
+    "title": "Smartphone Product Demo",
+    "setting": "Modern lifestyle setting, wooden desk with coffee cup, morning sunlight through window, clean contemporary interior",
+    "action": "Hand picks up phone, screen activates showing vibrant display, swipes through features, places on wireless charger, LED glows",
+    "cameraStyle": "Medium shot establishing context, close-up on hand interaction, macro on screen detail, natural motivated camera moves",
+    "output": "4K, natural warm color grade, soft window light, screen brightness balanced, lifestyle commercial feel, 24fps",
+    "fullPrompt": "[Setting]\nModern lifestyle setting, wooden desk with coffee cup, morning sunlight through window, clean contemporary interior\n\n[Action]\nHand picks up phone, screen activates showing vibrant display, swipes through features, places on wireless charger, LED glows\n\n[Camera & Style]\nMedium shot establishing context, close-up on hand interaction, macro on screen detail, natural motivated camera moves\n\n[Output]\n4K, natural warm color grade, soft window light, screen brightness balanced, lifestyle commercial feel, 24fps"
+  },
+  {
+    "id": "commercial_004",
+    "genre": "commercial",
+    "title": "Athletic Shoe Dynamic",
+    "setting": "Urban basketball court at golden hour, concrete surface, chain-link fence, warm sunset backlight, street style atmosphere",
+    "action": "Athlete jumps, camera freezes at peak moment, 360° rotation around frozen athlete, shoe detail highlighted, lands in slow motion",
+    "cameraStyle": "Bullet time effect 360° freeze frame, high speed cameras, low angle hero shot, dramatic backlight silhouette",
+    "output": "4K, golden hour color grade, motion freeze with rotation, slow motion 240fps landing, lens flares, high contrast",
+    "fullPrompt": "[Setting]\nUrban basketball court at golden hour, concrete surface, chain-link fence, warm sunset backlight, street style atmosphere\n\n[Action]\nAthlete jumps, camera freezes at peak moment, 360° rotation around frozen athlete, shoe detail highlighted, lands in slow motion\n\n[Camera & Style]\nBullet time effect 360° freeze frame, high speed cameras, low angle hero shot, dramatic backlight silhouette\n\n[Output]\n4K, golden hour color grade, motion freeze with rotation, slow motion 240fps landing, lens flares, high contrast"
+  },
+  {
+    "id": "commercial_005",
+    "genre": "commercial",
+    "title": "Coffee Pour Macro",
+    "setting": "Rustic wooden table, white ceramic cup, natural window light from side, steam rising, warm morning ambiance",
+    "action": "Fresh coffee pours into cup in extreme slow motion, creates swirling patterns, foam forms on top, steam wisps rise",
+    "cameraStyle": "Macro lens 100mm, extreme close-up on pour, slow motion 480fps, side lighting shows liquid texture, shallow focus",
+    "output": "4K, warm color grade emphasizing browns and creams, steam visible in backlight, liquid detail, appetizing aesthetic",
+    "fullPrompt": "[Setting]\nRustic wooden table, white ceramic cup, natural window light from side, steam rising, warm morning ambiance\n\n[Action]\nFresh coffee pours into cup in extreme slow motion, creates swirling patterns, foam forms on top, steam wisps rise\n\n[Camera & Style]\nMacro lens 100mm, extreme close-up on pour, slow motion 480fps, side lighting shows liquid texture, shallow focus\n\n[Output]\n4K, warm color grade emphasizing browns and creams, steam visible in backlight, liquid detail, appetizing aesthetic"
+  },
+  {
+    "id": "commercial_006",
+    "genre": "commercial",
+    "title": "Fashion Model Walk",
+    "setting": "Pure white cyclorama studio, infinite white background, professional studio lighting, minimalist high-fashion environment",
+    "action": "Fashion model walks toward camera confidently, clothing flows with movement, turns at mark, poses, intense eye contact",
+    "cameraStyle": "Medium full shot walking toward lens, slow motion emphasizes fabric movement, smooth dolly backward, eye-level perspective",
+    "output": "4K, high key white background, perfect exposure on subject, vibrant clothing colors pop, 60fps smooth motion, commercial polish",
+    "fullPrompt": "[Setting]\nPure white cyclorama studio, infinite white background, professional studio lighting, minimalist high-fashion environment\n\n[Action]\nFashion model walks toward camera confidently, clothing flows with movement, turns at mark, poses, intense eye contact\n\n[Camera & Style]\nMedium full shot walking toward lens, slow motion emphasizes fabric movement, smooth dolly backward, eye-level perspective\n\n[Output]\n4K, high key white background, perfect exposure on subject, vibrant clothing colors pop, 60fps smooth motion, commercial polish"
+  },
+  {
+    "id": "commercial_007",
+    "genre": "commercial",
+    "title": "Watch Close-Up Luxury",
+    "setting": "Black velvet surface, dramatic single point lighting, luxury watch on display, precious metal catches light",
+    "action": "Watch rotates slowly revealing craftsmanship, second hand sweeps smoothly, crystal reflects light, mechanical movement visible",
+    "cameraStyle": "Macro photography, turntable rotation, extreme close-up on movement mechanism, focus pulls across details",
+    "output": "4K, luxury commercial lighting, metal specular highlights, deep blacks, mechanical precision visible, 24fps",
+    "fullPrompt": "[Setting]\nBlack velvet surface, dramatic single point lighting, luxury watch on display, precious metal catches light\n\n[Action]\nWatch rotates slowly revealing craftsmanship, second hand sweeps smoothly, crystal reflects light, mechanical movement visible\n\n[Camera & Style]\nMacro photography, turntable rotation, extreme close-up on movement mechanism, focus pulls across details\n\n[Output]\n4K, luxury commercial lighting, metal specular highlights, deep blacks, mechanical precision visible, 24fps"
+  },
+  {
+    "id": "commercial_008",
+    "genre": "commercial",
+    "title": "Beer Splash Refreshment",
+    "setting": "Dark studio background, ice bucket beside glass, condensation drops, backlit to show liquid clarity, bar atmosphere",
+    "action": "Beer pours into glass creating perfect head, bubbles rise rapidly, glass sweats with cold, splash captures mid-air in freeze",
+    "cameraStyle": "High speed camera 1000fps captures splash detail, macro on bubbles, side backlight shows golden color, crisp focus",
+    "output": "4K, dramatic lighting on dark background, golden beer color saturated, ice-cold atmosphere, crystal clear droplets, appetizing",
+    "fullPrompt": "[Setting]\nDark studio background, ice bucket beside glass, condensation drops, backlit to show liquid clarity, bar atmosphere\n\n[Action]\nBeer pours into glass creating perfect head, bubbles rise rapidly, glass sweats with cold, splash captures mid-air in freeze\n\n[Camera & Style]\nHigh speed camera 1000fps captures splash detail, macro on bubbles, side backlight shows golden color, crisp focus\n\n[Output]\n4K, dramatic lighting on dark background, golden beer color saturated, ice-cold atmosphere, crystal clear droplets, appetizing"
+  },
+  {
+    "id": "commercial_009",
+    "genre": "commercial",
+    "title": "Skincare Product Ritual",
+    "setting": "Bright bathroom with marble surfaces, natural morning light, white towels, plants, clean spa-like aesthetic",
+    "action": "Hands apply cream to face in circular motions, product texture visible, skin glows, satisfied expression, healthy radiance",
+    "cameraStyle": "Close-up on product application, macro on skin texture, natural light from window, soft focus background, intimate framing",
+    "output": "4K, bright clean color grade, skin tones perfected, soft natural lighting, aspirational lifestyle feel, 24fps",
+    "fullPrompt": "[Setting]\nBright bathroom with marble surfaces, natural morning light, white towels, plants, clean spa-like aesthetic\n\n[Action]\nHands apply cream to face in circular motions, product texture visible, skin glows, satisfied expression, healthy radiance\n\n[Camera & Style]\nClose-up on product application, macro on skin texture, natural light from window, soft focus background, intimate framing\n\n[Output]\n4K, bright clean color grade, skin tones perfected, soft natural lighting, aspirational lifestyle feel, 24fps"
+  },
+  {
+    "id": "commercial_010",
+    "genre": "commercial",
+    "title": "Headphones Audio Visual",
+    "setting": "Modern minimalist room, person sitting in chair, large window with city view, contemporary furniture, afternoon light",
+    "action": "Person puts on headphones, eyes close, head nods to rhythm, pure enjoyment expression, immersed in sound experience",
+    "cameraStyle": "Medium close-up on face, slow push-in as music starts, soft focus on background, emphasis on emotional response",
+    "output": "4K, natural color grade, soft window light, shallow depth of field f/1.8, lifestyle commercial aesthetic, 24fps",
+    "fullPrompt": "[Setting]\nModern minimalist room, person sitting in chair, large window with city view, contemporary furniture, afternoon light\n\n[Action]\nPerson puts on headphones, eyes close, head nods to rhythm, pure enjoyment expression, immersed in sound experience\n\n[Camera & Style]\nMedium close-up on face, slow push-in as music starts, soft focus on background, emphasis on emotional response\n\n[Output]\n4K, natural color grade, soft window light, shallow depth of field f/1.8, lifestyle commercial aesthetic, 24fps"
+  }
+]
