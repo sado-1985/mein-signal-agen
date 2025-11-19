@@ -63,9 +63,12 @@ export class PromptViewer {
   }
 
   // Convert Veo to LtX format
+  // Note: Uses same logic as ConversionService for consistency
+  // Kept as method to maintain component encapsulation
   convertToLtx(veoPrompt) {
-    const framing = veoPrompt.cameraStyle.split(',')[0].trim() || 'medium shot';
-    const styleParts = veoPrompt.cameraStyle.split(',').slice(1).map(s => s.trim());
+    const cameraStyleParts = veoPrompt.cameraStyle.split(',').map(s => s.trim());
+    const framing = cameraStyleParts[0] || 'medium shot';
+    const styleParts = cameraStyleParts.slice(1);
     const outputParts = veoPrompt.output.split(',').map(s => s.trim());
     const style = [...styleParts, ...outputParts].join(', ');
 

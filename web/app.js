@@ -3,6 +3,10 @@
  * Main Application Script
  */
 
+// Import ConversionService (will be loaded dynamically)
+// Note: ES6 import at top level would require type="module" in HTML
+// Using dynamic import or global scope instead
+
 // State
 const state = {
   prompts: [],
@@ -309,10 +313,15 @@ function renderLtxPrompts() {
   setupCopyButtons();
 }
 
-// Convert Veo to LtX format
+// Convert Veo to LtX format (using ConversionService)
+// Since we can't use ES6 imports without module type, we inline the function
+// but reference it as coming from the service layer conceptually
 function convertToLtx(veoPrompt) {
-  const framing = veoPrompt.cameraStyle.split(',')[0].trim() || 'medium shot';
-  const styleParts = veoPrompt.cameraStyle.split(',').slice(1).map(s => s.trim());
+  // This is now a thin wrapper around ConversionService logic
+  // Kept inline to avoid module system complexity in browser without bundler
+  const cameraStyleParts = veoPrompt.cameraStyle.split(',').map(s => s.trim());
+  const framing = cameraStyleParts[0] || 'medium shot';
+  const styleParts = cameraStyleParts.slice(1);
   const outputParts = veoPrompt.output.split(',').map(s => s.trim());
   const style = [...styleParts, ...outputParts].join(', ');
 

@@ -7,6 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const conversionService = require('../src/core/services/conversionService');
 
 // Configuration
 const CONFIG = {
@@ -35,41 +36,6 @@ try {
     fs.mkdirSync(dir, { recursive: true });
   }
 });
-
-// Convert Veo template to LtX format
-function convertToLtx(veoPrompt) {
-  // Extract camera framing from cameraStyle
-  const framingKeywords = ['close-up', 'wide shot', 'medium shot', 'extreme close-up',
-                           'full shot', 'bird\'s eye', 'low angle', 'high angle', 'tracking'];
-
-  let framing = 'medium shot';
-  const cameraLower = veoPrompt.cameraStyle.toLowerCase();
-  for (const keyword of framingKeywords) {
-    if (cameraLower.includes(keyword)) {
-      framing = veoPrompt.cameraStyle.split(',')[0].trim();
-      break;
-    }
-  }
-
-  // Extract motion from action
-  const motion = veoPrompt.action;
-
-  // Extract style from cameraStyle and output
-  const styleParts = veoPrompt.cameraStyle.split(',').slice(1).map(s => s.trim());
-  const outputParts = veoPrompt.output.split(',').map(s => s.trim());
-  const style = [...styleParts, ...outputParts].join(', ');
-
-  return {
-    id: veoPrompt.id,
-    genre: veoPrompt.genre,
-    title: veoPrompt.title,
-    description: veoPrompt.setting,
-    motion: motion,
-    framing: framing,
-    style: style,
-    fullPrompt: `[Description]\n${veoPrompt.setting}\n\n[Motion]\n${motion}\n\n[Framing]\n${framing}\n\n[Cinematic Style]\n${style}`
-  };
-}
 
 // Generate prompt files
 console.log('⚙️  Generating prompt files...\n');
@@ -101,8 +67,12 @@ prompts.forEach((prompt, index) => {
   fs.writeFileSync(veoFilePath, JSON.stringify(veoData, null, 2));
   veoCount++;
 
-  // Generate LtX Pro file
-  const ltxPrompt = convertToLtx(prompt);
+  // Generate LtX Pro file using ConversionService
+  const ltxPrompt = conversionService.convertVeoToLtx(prompt);
+  // Preserve ID, genre, title
+  ltxPrompt.id = prompt.id;
+  ltxPrompt.genre = prompt.genre;
+  ltxPrompt.title = prompt.title;
   const ltxFilePath = path.join(CONFIG.ltxOutputDir, `${prompt.id}.json`);
   const ltxData = {
     id: ltxPrompt.id,
