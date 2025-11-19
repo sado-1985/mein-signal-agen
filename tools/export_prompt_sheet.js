@@ -11,7 +11,7 @@ const path = require('path');
 const CONFIG = {
   libraryPath: path.join(__dirname, '../library/prompt_library.json'),
   outputDir: path.join(__dirname, '../library'),
-  cameraTermsPath: path.join(__dirname, '../data/camera_terms.js')
+  cameraTermsPath: path.join(__dirname, '../data/camera_terms.json')
 };
 
 console.log('📊 MindSignal Prompt Sheet Exporter\n');
@@ -24,8 +24,8 @@ console.log(`✅ Loaded ${prompts.length} prompts\n`);
 // Load camera terms if available
 let cameraTerms = [];
 try {
-  const cameraModule = require(CONFIG.cameraTermsPath);
-  cameraTerms = cameraModule.cameraTerms || cameraModule.default || [];
+  const cameraData = require(CONFIG.cameraTermsPath);
+  cameraTerms = cameraData.terms || [];
   console.log(`✅ Loaded ${cameraTerms.length} camera terms\n`);
 } catch (e) {
   console.log('ℹ️  Camera terms not loaded\n');

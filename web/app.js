@@ -40,16 +40,11 @@ async function loadData() {
     state.prompts = await promptsResponse.json();
     console.log(`✅ Loaded ${state.prompts.length} prompts`);
 
-    // Load camera terms
-    const cameraResponse = await fetch('../data/camera_terms.js');
-    const cameraText = await cameraResponse.text();
-
-    // Parse the ES6 module export
-    const cameraMatch = cameraText.match(/export const cameraTerms = (\[[\s\S]*?\]);/);
-    if (cameraMatch) {
-      state.cameraTerms = eval(cameraMatch[1]);
-      console.log(`✅ Loaded ${state.cameraTerms.length} camera terms`);
-    }
+    // Load camera terms (JSON - secure, no eval needed)
+    const cameraResponse = await fetch('../data/camera_terms.json');
+    const cameraData = await cameraResponse.json();
+    state.cameraTerms = cameraData.terms;
+    console.log(`✅ Loaded ${state.cameraTerms.length} camera terms`);
 
     // Update stats in header
     document.getElementById('total-prompts').textContent = state.prompts.length;

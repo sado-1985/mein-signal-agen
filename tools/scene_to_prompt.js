@@ -42,11 +42,11 @@ if (!fs.existsSync(sceneFile)) {
 
 // Load camera terms for suggestions
 let cameraTerms = [];
-const cameraTermsPath = path.join(__dirname, '../data/camera_terms.js');
+const cameraTermsPath = path.join(__dirname, '../data/camera_terms.json');
 if (fs.existsSync(cameraTermsPath)) {
   try {
-    const cameraModule = require(cameraTermsPath);
-    cameraTerms = cameraModule.cameraTerms || cameraModule.default || [];
+    const cameraData = require(cameraTermsPath);
+    cameraTerms = cameraData.terms || [];
   } catch (e) {
     console.log('ℹ️  Could not load camera terms for suggestions');
   }

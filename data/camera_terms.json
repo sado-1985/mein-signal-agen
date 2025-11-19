@@ -1,0 +1,238 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-15",
+  "description": "MindSignal Camera Lexicon - Comprehensive cinematographic terminology and techniques",
+  "totalTerms": 28,
+  "categories": {
+    "movement": 10,
+    "framing": 9,
+    "lens": 4,
+    "special": 5
+  },
+  "terms": [
+    {
+      "id": "dolly_zoom",
+      "name": "Dolly Zoom (Vertigo Effect)",
+      "desc": "Kamera fährt rückwärts während Brennweite gleichzeitig reingezoomt wird, erzeugt dramatische Tiefenverzerrung und Desorientierung.",
+      "promptSnippet": "langsamer Dolly-Zoom rückwärts, dramatische Tiefenverzerrung, Vertigo-Effekt",
+      "category": "movement",
+      "useCases": "Spannung, Realisation, psychologischer Schock"
+    },
+    {
+      "id": "tracking_shot",
+      "name": "Tracking Shot",
+      "desc": "Kamera folgt dem Subjekt flüssig und parallel, behält konstanten Abstand.",
+      "promptSnippet": "flüssiger Tracking Shot, Kamera folgt parallel zur Bewegung",
+      "category": "movement",
+      "useCases": "Action, Verfolgung, kontinuierliche Bewegung"
+    },
+    {
+      "id": "crane_shot",
+      "name": "Crane Shot",
+      "desc": "Kamera bewegt sich vertikal auf und ab, oft mit zusätzlicher horizontaler Bewegung.",
+      "promptSnippet": "dramatischer Crane Shot von unten nach oben, sweepende Bewegung",
+      "category": "movement",
+      "useCases": "Establishing Shots, Transitions, epische Momente"
+    },
+    {
+      "id": "steadicam",
+      "name": "Steadicam",
+      "desc": "Stabilisierte, fließende Kamerabewegung durch komplexe Räume, folgt natürlicher Bewegung.",
+      "promptSnippet": "flüssige Steadicam-Bewegung, schwebt durch den Raum",
+      "category": "movement",
+      "useCases": "POV, immersive Szenen, lange Takes"
+    },
+    {
+      "id": "whip_pan",
+      "name": "Whip Pan",
+      "desc": "Extrem schnelle horizontale Kameraschwenkung, erzeugt Motion Blur.",
+      "promptSnippet": "dynamischer Whip Pan, schnelle Schwenkung mit Motion Blur",
+      "category": "movement",
+      "useCases": "Energetische Übergänge, Überraschungsmomente"
+    },
+    {
+      "id": "orbit_shot",
+      "name": "Orbit Shot (360°)",
+      "desc": "Kamera kreist um das Subjekt in 360° Rotation.",
+      "promptSnippet": "kreisende Orbit-Bewegung um das Subjekt, 360° Rotation",
+      "category": "movement",
+      "useCases": "Helden-Momente, Charaktervorstellung, dramatische Reveals"
+    },
+    {
+      "id": "push_in",
+      "name": "Push In / Dolly In",
+      "desc": "Kamera fährt langsam auf das Subjekt zu, erhöht Intimität und Spannung.",
+      "promptSnippet": "langsamer Push-In auf das Gesicht, zunehmende Intimität",
+      "category": "movement",
+      "useCases": "Emotionale Momente, Fokussierung, Spannungsaufbau"
+    },
+    {
+      "id": "pull_out",
+      "name": "Pull Out / Dolly Out",
+      "desc": "Kamera fährt vom Subjekt weg, enthüllt größeren Kontext.",
+      "promptSnippet": "reveal Pull-Out, Kamera zieht zurück und enthüllt Umgebung",
+      "category": "movement",
+      "useCases": "Reveals, Kontextaufbau, Isolation zeigen"
+    },
+    {
+      "id": "handheld",
+      "name": "Handheld",
+      "desc": "Bewusst instabile, wackelige Kameraführung für dokumentarische oder intensive Wirkung.",
+      "promptSnippet": "raue Handheld-Kamera, leichtes Wackeln, dokumentarischer Stil",
+      "category": "movement",
+      "useCases": "Realismus, Chaos, Dringlichkeit, Doku-Stil"
+    },
+    {
+      "id": "dutch_angle",
+      "name": "Dutch Angle / Canted Angle",
+      "desc": "Kamera ist schräg gekippt, erzeugt Unruhe und Desorientierung.",
+      "promptSnippet": "schräger Dutch Angle, 15° gekippte Kamera, unruhige Komposition",
+      "category": "movement",
+      "useCases": "Bedrohung, Instabilität, psychologische Spannung"
+    },
+    {
+      "id": "extreme_closeup",
+      "name": "Extreme Close-Up (ECU)",
+      "desc": "Sehr nahe Detailaufnahme, z.B. Auge, Mund, Objekt-Detail.",
+      "promptSnippet": "Extreme Close-Up auf das Auge, maximale Detailschärfe",
+      "category": "framing",
+      "useCases": "Emotionale Intensität, kritische Details"
+    },
+    {
+      "id": "closeup",
+      "name": "Close-Up (CU)",
+      "desc": "Gesicht oder Objekt füllt den Frame, emotionale Nähe.",
+      "promptSnippet": "Close-Up Portrait, Gesicht füllt den Frame",
+      "category": "framing",
+      "useCases": "Emotionen, Charakterfokus, Reaktionen"
+    },
+    {
+      "id": "medium_shot",
+      "name": "Medium Shot",
+      "desc": "Figur von Hüfte/Taille aufwärts, Balance zwischen Kontext und Detail.",
+      "promptSnippet": "Medium Shot, Figur von der Hüfte aufwärts",
+      "category": "framing",
+      "useCases": "Dialoge, Standard-Coverage, Interaktionen"
+    },
+    {
+      "id": "full_shot",
+      "name": "Full Shot",
+      "desc": "Gesamte Figur von Kopf bis Fuß sichtbar.",
+      "promptSnippet": "Full Shot, komplette Figur im Frame",
+      "category": "framing",
+      "useCases": "Körpersprache, Bewegung, Establishing"
+    },
+    {
+      "id": "wide_shot",
+      "name": "Wide Shot / Establishing Shot",
+      "desc": "Zeigt gesamte Umgebung und räumlichen Kontext.",
+      "promptSnippet": "weiter Establishing Shot, gesamte Szenerie sichtbar",
+      "category": "framing",
+      "useCases": "Ortsaufbau, Kontext, Atmosphäre"
+    },
+    {
+      "id": "over_shoulder",
+      "name": "Over-the-Shoulder (OTS)",
+      "desc": "Aufnahme über die Schulter einer Person, zeigt deren Perspektive.",
+      "promptSnippet": "Over-Shoulder Perspektive, Blick über die Schulter",
+      "category": "framing",
+      "useCases": "Dialoge, subjektive Perspektive, Beziehungen"
+    },
+    {
+      "id": "birds_eye",
+      "name": "Bird's Eye View",
+      "desc": "Direkt von oben, 90° Draufsicht.",
+      "promptSnippet": "Bird's Eye View, direkte Draufsicht von oben",
+      "category": "framing",
+      "useCases": "Abstraktion, Muster, göttliche Perspektive"
+    },
+    {
+      "id": "low_angle",
+      "name": "Low Angle",
+      "desc": "Kamera blickt von unten nach oben, macht Subjekt mächtig/bedrohlich.",
+      "promptSnippet": "dramatischer Low Angle von unten, imposante Wirkung",
+      "category": "framing",
+      "useCases": "Macht, Bedrohung, Dominanz"
+    },
+    {
+      "id": "high_angle",
+      "name": "High Angle",
+      "desc": "Kamera blickt von oben nach unten, macht Subjekt schwach/verletzlich.",
+      "promptSnippet": "High Angle von oben, vulnerable Perspektive",
+      "category": "framing",
+      "useCases": "Verletzlichkeit, Überwachung, Überlegenheit"
+    },
+    {
+      "id": "fisheye",
+      "name": "Fisheye Lens",
+      "desc": "Extreme Weitwinkel-Verzerrung mit sphärischer Krümmung.",
+      "promptSnippet": "Fisheye-Objektiv, extreme sphärische Verzerrung, 180° Sicht",
+      "category": "lens",
+      "useCases": "Experimentell, Skateboard-POV, surreale Räume"
+    },
+    {
+      "id": "wide_angle",
+      "name": "Wide Angle Lens",
+      "desc": "Breites Sichtfeld, verstärkt Tiefe und räumliche Dimensionen.",
+      "promptSnippet": "Wide-Angle-Objektiv, verstärkte Tiefenwirkung",
+      "category": "lens",
+      "useCases": "Enge Räume, epische Landschaften, immersive Räume"
+    },
+    {
+      "id": "telephoto",
+      "name": "Telephoto Lens",
+      "desc": "Lange Brennweite, komprimiert Tiefenebenen, isoliert Subjekt.",
+      "promptSnippet": "Telephoto-Objektiv, komprimierte Tiefenebenen, shallow depth",
+      "category": "lens",
+      "useCases": "Isolierung, Porträts, komprimierte Perspektive"
+    },
+    {
+      "id": "macro",
+      "name": "Macro Lens",
+      "desc": "Extreme Nahaufnahme mit hoher Detailschärfe, zeigt mikroskopische Details.",
+      "promptSnippet": "Macro-Objektiv, extreme Detailschärfe, mikroskopische Perspektive",
+      "category": "lens",
+      "useCases": "Produktaufnahmen, Nature, wissenschaftliche Details"
+    },
+    {
+      "id": "slow_motion",
+      "name": "Slow Motion",
+      "desc": "Zeitlupe, dramatisiert Bewegung und Details.",
+      "promptSnippet": "cinematische Slow Motion, 120fps, dramatische Zeitlupe",
+      "category": "special",
+      "useCases": "Actionszenen, emotionale Momente, Detailbetonung"
+    },
+    {
+      "id": "timelapse",
+      "name": "Timelapse",
+      "desc": "Zeitraffer, komprimiert lange Zeitspannen.",
+      "promptSnippet": "Timelapse, beschleunigte Zeit, fließende Bewegung",
+      "category": "special",
+      "useCases": "Transitions, Zeitvergehen, Naturphänomene"
+    },
+    {
+      "id": "rack_focus",
+      "name": "Rack Focus",
+      "desc": "Fokus verschiebt sich von einem Objekt zum anderen, lenkt Aufmerksamkeit.",
+      "promptSnippet": "Rack Focus von Vordergrund zu Hintergrund, Aufmerksamkeitswechsel",
+      "category": "special",
+      "useCases": "Reveals, Aufmerksamkeitssteuerung, narrative Shifts"
+    },
+    {
+      "id": "shallow_dof",
+      "name": "Shallow Depth of Field",
+      "desc": "Sehr geringe Schärfentiefe, isoliert Subjekt durch Unschärfe.",
+      "promptSnippet": "shallow depth of field, weiches Bokeh, f/1.4",
+      "category": "special",
+      "useCases": "Cinematic Look, Isolation, Porträts"
+    },
+    {
+      "id": "deep_focus",
+      "name": "Deep Focus",
+      "desc": "Maximale Schärfentiefe, alles von vorne bis hinten scharf.",
+      "promptSnippet": "deep focus, f/16, komplette Schärfentiefe",
+      "category": "special",
+      "useCases": "Etablierung komplexer Szenen, Wes Anderson-Stil"
+    }
+  ]
+}
